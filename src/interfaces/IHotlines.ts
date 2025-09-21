@@ -11,7 +11,8 @@ export interface IHotline {
     | 'Government Hotlines';
   hotlineName: string;
   hotlineNumber: string;
-  region: string;
+  regionName: string;
+  regionCode: string;
   city: string;
   category:
     | 'police_hotlines'
