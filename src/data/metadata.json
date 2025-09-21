@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "totalHotlines": 89,
+    "regions": [
+      {
+        "code": "Region IV-A",
+        "name": "CALABARZON",
+        "cities": [
+          "Alfonso",
+          "Amadeo",
+          "Bacoor",
+          "Carmona",
+          "Cavite City",
+          "Dasmarinas",
+          "General Emilio Aguinaldo",
+          "General Mariano Alvarez",
+          "General Trias",
+          "Imus",
+          "Indang",
+          "Kawit",
+          "Magallanes",
+          "Maragondon",
+          "Mendez",
+          "Naic",
+          "Noveleta",
+          "Rosario",
+          "Silang",
+          "Tagaytay",
+          "Tanza",
+          "Ternate",
+          "Trece Martires"
+        ]
+      }
+    ],
+    "hotlineTypes": [
+      "Emergency Hotlines",
+      "Medical Hotlines",
+      "Utility Hotlines",
+      "Government Hotlines"
+    ],
+    "categories": [
+      "fire_hotlines",
+      "police_hotlines",
+      "medical_hotlines",
+      "utility_hotlines",
+      "government_hotlines"
+    ],
+    "lastUpdated": "2025-09-21T10:30:00Z"
+  }
+}
