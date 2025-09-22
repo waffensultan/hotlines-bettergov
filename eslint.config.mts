@@ -53,6 +53,8 @@ export default defineConfig([
       },
     },
     rules: {
+      '@typescript-eslint/triple-slash-reference': 'off',
+
       // React Hooks rules
       'react-hooks/rules-of-hooks': 'error',
       'react-hooks/exhaustive-deps': 'off',
