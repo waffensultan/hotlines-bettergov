@@ -131,25 +131,21 @@ export default function RootPage() {
         </div>
       </div>
       {/* SEARCH INPUT */}
-      <div className="flex justify-center items-center px-4 md:px-32 py-6 -mt-13 relative z-10">
+      <div className="flex justify-center items-center px-4 md:px-32 py-6 -mt-11 relative z-10">
         <div className="flex flex-col gap-5 w-full max-w-6xl">
-          <input
-            type="text"
-            placeholder="Search by hotline, city, or region..."
-            className="w-full px-6 py-4 text-lg border-2 border-gray-300 rounded-full focus:outline-none focus:border-blue-900 transition-colors shadow-lg bg-white"
-          />
-
           {/* TODO: Update this so that it uses the selected region and then shows its respective cities (use a state for this) */}
           {metadata ? (
             <div className="flex flex-row items-center justify-center gap-2 sm:gap-5 px-2 sm:px-6 w-full">
               <Select value={selectedRegion} onValueChange={handleRegionChange}>
                 <SelectTrigger className="flex-1 min-w-0 sm:flex-none sm:w-[250px] py-5 bg-white text-sm sm:text-lg font-normal border-gray-300 rounded-full">
-                  <SelectValue placeholder={`Region: ${metadata.regions[0].code}`} />
+                  <SelectValue placeholder={`Region: ${metadata.regions[0].code}`}>
+                    {selectedRegion ? `Region: ${selectedRegion}` : null}
+                  </SelectValue>
                 </SelectTrigger>
                 <SelectContent className="text-lg border-gray-300">
                   {metadata.regions.map(region => (
                     <SelectItem key={region.code} value={region.code}>
-                      Region: {region.code}
+                      {region.code}
                     </SelectItem>
                   ))}
                 </SelectContent>
@@ -160,12 +156,14 @@ export default function RootPage() {
                 onValueChange={handleProvinceChange} // Add onValueChange handler
               >
                 <SelectTrigger className="flex-1 min-w-0 sm:flex-none sm:w-[250px] py-5 bg-white text-sm sm:text-lg font-normal border-gray-300 rounded-full">
-                  <SelectValue placeholder="Select Province" />
+                  <SelectValue placeholder="Select Province">
+                    {selectedProvince ? `Region: ${selectedProvince}` : null}
+                  </SelectValue>
                 </SelectTrigger>
                 <SelectContent className="text-lg border-gray-300">
                   {availableProvincesOnRegion?.map(({ province }) => (
                     <SelectItem key={province} value={province}>
-                      Province: {province}
+                      {province}
                     </SelectItem>
                   ))}
                 </SelectContent>
@@ -176,12 +174,14 @@ export default function RootPage() {
                 onValueChange={setSelectedCity} // Add onValueChange handler
               >
                 <SelectTrigger className="flex-1 min-w-0 sm:flex-none sm:w-[250px] py-5 bg-white text-sm sm:text-lg font-normal border-gray-300 rounded-full">
-                  <SelectValue placeholder="Select City" />
+                  <SelectValue placeholder={`City: ${metadata.regions[0].provinces[0].cities[0]}`}>
+                    {selectedCity ? `City: ${selectedCity}` : null}
+                  </SelectValue>
                 </SelectTrigger>
                 <SelectContent className="text-lg border-gray-300">
                   {availableCitiesOnProvince?.map(city => (
                     <SelectItem key={city} value={city}>
-                      City: {city}
+                      {city}
                     </SelectItem>
                   ))}
                 </SelectContent>
@@ -192,12 +192,14 @@ export default function RootPage() {
                 onValueChange={value => setSelectedHotlineType(value)}
               >
                 <SelectTrigger className="flex-1 min-w-0 sm:flex-none sm:w-[270px] py-5 bg-white text-sm sm:text-lg font-normal border-gray-300 rounded-full">
-                  <SelectValue placeholder={`Service: ${metadata.hotlineTypes[0]}`} />
+                  <SelectValue placeholder={`Service: ${metadata.hotlineTypes[0]}`}>
+                    {selectedHotlineType ? `Type:  ${selectedHotlineType}` : null}
+                  </SelectValue>
                 </SelectTrigger>
                 <SelectContent className="text-lg border-gray-300">
                   {metadata.hotlineTypes.map(hotline => (
                     <SelectItem key={hotline} value={hotline}>
-                      Type: {hotline}
+                      {hotline}
                     </SelectItem>
                   ))}
                 </SelectContent>
