@@ -1,6 +1,7 @@
 import { NextResponse, NextRequest } from 'next/server';
 import { promises as fs } from 'fs';
 import { IHotlinesResponse } from '@/interfaces/IHotlines';
+import path from 'path';
 
 export async function GET(request: NextRequest) {
   try {
@@ -9,7 +10,8 @@ export async function GET(request: NextRequest) {
     const city = request.nextUrl.searchParams.get('city');
     const hotlineType = request.nextUrl.searchParams.get('hotlineType');
 
-    const file = await fs.readFile(process.cwd() + '/src/data/hotlines.json', 'utf8');
+    const filePath = path.join(process.cwd(), 'public', 'hotlines.json');
+    const file = await fs.readFile(filePath, 'utf8');
     const data: IHotlinesResponse = JSON.parse(file);
 
     // Check if hotline is still active

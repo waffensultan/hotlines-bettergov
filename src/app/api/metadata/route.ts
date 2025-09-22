@@ -1,9 +1,11 @@
 import { NextResponse } from 'next/server';
 import { promises as fs } from 'fs';
+import path from 'path';
 
 export async function GET() {
   try {
-    const file = await fs.readFile(process.cwd() + '/src/data/metadata.json', 'utf8');
+    const filePath = path.join(process.cwd(), 'public', 'metadata.json');
+    const file = await fs.readFile(filePath, 'utf8');
     const data = JSON.parse(file);
     return NextResponse.json(data.metadata);
   } catch {
