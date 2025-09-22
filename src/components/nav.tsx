@@ -2,6 +2,8 @@
 
 import { useState } from 'react';
 
+import Link from 'next/link';
+
 export default function Nav() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -19,21 +21,23 @@ export default function Nav() {
         </div>
 
         <div className="hidden md:flex items-center space-x-8">
-          <a
-            href="#"
+          <Link
+            href={'/'}
             className="text-gray-700 hover:text-red-600 font-medium transition-colors duration-200"
           >
             Home
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            href={'/about'}
             className="text-gray-700 hover:text-red-600 font-medium transition-colors duration-200"
           >
             About
-          </a>
+          </Link>
           <a
-            href="#"
-            className="bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition-colors duration-200 font-medium"
+            href="https://github.com/waffensultan/hotlines-bettergov"
+            target="_blank"
+            className="bg-red-600 font-semibold text-white px-4 py-2 rounded-lg hover:bg-red-700 transition-colors duration-200 font-medium"
+            rel="noreferrer"
           >
             Report Issue
           </a>

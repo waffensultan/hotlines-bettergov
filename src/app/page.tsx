@@ -59,7 +59,7 @@ export default function RootPage() {
 
           {/* TODO: Update this so that it uses the selected region and then shows its respective cities (use a state for this) */}
           {metadata ? (
-            <div className="flex flex-row items-center gap-5">
+            <div className="flex flex-row items-center justify-center gap-5">
               <Select defaultValue={metadata.regions[0].code}>
                 <SelectTrigger className="w-[250px] py-5 bg-white text-lg font-normal border-gray-300 rounded-full">
                   <SelectValue placeholder={`Region: ${metadata.regions[0].code} test`} />
