@@ -11,7 +11,7 @@ export default function Nav() {
     <nav className="bg-white border-b border-gray-200 md:px-32 py-3">
       <div className="flex items-center justify-between px-4 md:px-0">
         <div className="flex items-center space-x-3">
-          <div className="bg-gradient-to-br from-orange-600 to-yellow-300 text-white w-10 h-10 rounded-lg flex items-center justify-center font-bold text-lg">
+          <div className="bg-gradient-to-br from-blue-900 via-red-500 to-yellow-300 text-white w-10 h-10 rounded-lg flex items-center justify-center font-bold text-lg">
             PH
           </div>
           <div>
@@ -20,16 +20,16 @@ export default function Nav() {
           </div>
         </div>
 
-        <div className="hidden md:flex items-center space-x-8">
+        <div className="hidden md:flex items-center gap-5">
           <Link
             href={'/'}
-            className="text-gray-700 hover:text-red-600 font-medium transition-colors duration-200"
+            className="text-gray-700 hover:text-red-600 font-medium transition-colors duration-200 tracking-tight"
           >
             Home
           </Link>
           <Link
             href={'/about'}
-            className="text-gray-700 hover:text-red-600 font-medium transition-colors duration-200"
+            className="text-gray-700 hover:text-red-600 font-medium transition-colors duration-200 tracking-tight"
           >
             About
           </Link>
@@ -74,15 +74,23 @@ export default function Nav() {
       {isMobileMenuOpen && (
         <div className="md:hidden mt-4 pb-4 border-t border-gray-200 pt-4 px-4">
           <div className="flex flex-col space-y-3">
-            <a href="#" className="text-gray-700 hover:text-red-600 font-medium py-2">
+            <Link
+              href={'/'}
+              className="text-gray-700 hover:text-red-600 font-medium py-2 tracking-tight"
+            >
               Home
-            </a>
-            <a href="#" className="text-gray-700 hover:text-red-600 font-medium py-2">
+            </Link>
+            <Link
+              href={'/about'}
+              className="text-gray-700 hover:text-red-600 font-medium py-2 tracking-tight"
+            >
               About
-            </a>
+            </Link>
             <a
-              href="#"
+              href="https://github.com/waffensultan/hotlines-bettergov"
+              target="_blank"
               className="bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition-colors duration-200 font-medium text-center"
+              rel="noreferrer"
             >
               Report Issue
             </a>
