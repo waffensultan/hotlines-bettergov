@@ -1,34 +1,15 @@
 {
   "metadata": {
-    "totalHotlines": 89,
+    "totalHotlines": 22,
     "regions": [
       {
         "code": "Region IV-A",
         "name": "CALABARZON",
-        "cities": [
-          "Alfonso",
-          "Amadeo",
-          "Bacoor",
-          "Carmona",
-          "Cavite City",
-          "Dasmarinas",
-          "General Emilio Aguinaldo",
-          "General Mariano Alvarez",
-          "General Trias",
-          "Imus",
-          "Indang",
-          "Kawit",
-          "Magallanes",
-          "Maragondon",
-          "Mendez",
-          "Naic",
-          "Noveleta",
-          "Rosario",
-          "Silang",
-          "Tagaytay",
-          "Tanza",
-          "Ternate",
-          "Trece Martires"
+        "provinces": [
+          {
+            "province": "Cavite",
+            "cities": ["Alfonso", "General Mariano Alvarez", "Indang", "Kawit", "Trece Martires"]
+          }
         ]
       }
     ],

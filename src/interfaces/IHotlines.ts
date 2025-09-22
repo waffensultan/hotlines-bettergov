@@ -13,6 +13,7 @@ export interface IHotline {
   hotlineNumber: string;
   regionName: string;
   regionCode: string;
+  province: string;
   city: string;
   category:
     | 'police_hotlines'

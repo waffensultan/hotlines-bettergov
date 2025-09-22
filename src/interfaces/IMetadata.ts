@@ -9,5 +9,10 @@ export interface IMetadata {
 export interface IRegion {
   code: string;
   name: string;
+  provinces: IProvince[];
+}
+
+export interface IProvince {
+  province: string;
   cities: string[];
 }

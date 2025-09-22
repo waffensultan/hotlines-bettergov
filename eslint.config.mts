@@ -8,7 +8,15 @@ import { defineConfig } from 'eslint/config';
 export default defineConfig([
   // Ignore patterns first
   {
-    ignores: ['.next/**', 'out/**', 'node_modules/**', '.env*', '*.config.js', '*.config.mjs', 'public/**'],
+    ignores: [
+      '.next/**',
+      'out/**',
+      'node_modules/**',
+      '.env*',
+      '*.config.js',
+      '*.config.mjs',
+      'public/**',
+    ],
   },
 
   // Base JavaScript configuration
@@ -47,10 +55,13 @@ export default defineConfig([
     rules: {
       // React Hooks rules
       'react-hooks/rules-of-hooks': 'error',
-      'react-hooks/exhaustive-deps': 'warn',
+      'react-hooks/exhaustive-deps': 'off',
 
       // TypeScript rules
-      '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }],
+      '@typescript-eslint/no-unused-vars': [
+        'error',
+        { argsIgnorePattern: '^_', varsIgnorePattern: '^_' },
+      ],
       '@typescript-eslint/no-explicit-any': 'warn',
 
       // React rules
@@ -60,7 +71,7 @@ export default defineConfig([
       // General rules
       'prefer-const': 'error',
       'no-var': 'error',
-      'no-console': 'warn',
+      'no-console': 'off',
       eqeqeq: ['error', 'always'],
       curly: ['error', 'all'],
     },

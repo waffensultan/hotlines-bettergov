@@ -33,14 +33,9 @@ export default function Nav() {
           >
             About
           </Link>
-          <a
-            href="https://github.com/waffensultan/hotlines-bettergov"
-            target="_blank"
-            className="bg-red-600 font-semibold text-white px-4 py-2 rounded-lg hover:bg-red-700 transition-colors duration-200 font-medium"
-            rel="noreferrer"
-          >
-            Report Issue
-          </a>
+          <span className="border border-blue-500 bg-blue-100 text-blue-700 text-sm font-semibold px-3 py-1 rounded-md">
+            #BetterGovMovement
+          </span>
         </div>
 
         <div className="md:hidden">
@@ -86,14 +81,6 @@ export default function Nav() {
             >
               About
             </Link>
-            <a
-              href="https://github.com/waffensultan/hotlines-bettergov"
-              target="_blank"
-              className="bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition-colors duration-200 font-medium text-center"
-              rel="noreferrer"
-            >
-              Report Issue
-            </a>
           </div>
         </div>
       )}
