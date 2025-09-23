@@ -21,6 +21,7 @@ export default function RootPage() {
   const [selectedCity, setSelectedCity] = useState<string | null>(null);
   const [selectedHotlineType, setSelectedHotlineType] = useState('Emergency Hotlines'); // Default
 
+  // Fetch data
   useEffect(() => {
     const fetchMetadata = async () => {
       try {
@@ -74,6 +75,9 @@ export default function RootPage() {
     fetchHotlines();
   }, [selectedRegion, selectedCity, selectedHotlineType]);
 
+  // On region change
+  // Update `selectedProvince` to the new region's first available province
+  // Update `selectedCity` to the new region's province's first available city
   const handleRegionChange = (newRegion: string) => {
     setSelectedRegion(newRegion);
 
@@ -88,6 +92,8 @@ export default function RootPage() {
     }
   };
 
+  // On province change
+  // Update `selectedCity` to the new province's first available city
   const handleProvinceChange = (newProvince: string) => {
     setSelectedProvince(newProvince);
 
