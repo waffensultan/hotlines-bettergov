@@ -1,3 +1,5 @@
+// This file is for analytics
+
 import posthog from 'posthog-js';
 
 posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY!, {
