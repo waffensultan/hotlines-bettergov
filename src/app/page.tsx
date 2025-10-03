@@ -156,7 +156,6 @@ export default function RootPage() {
                   ))}
                 </SelectContent>
               </Select>
-
               <Select
                 value={selectedProvince || ''} // Use value instead of defaultValue
                 onValueChange={handleProvinceChange} // Add onValueChange handler
@@ -174,7 +173,6 @@ export default function RootPage() {
                   ))}
                 </SelectContent>
               </Select>
-
               <Select
                 value={selectedCity || ''} // Use value instead of defaultValue
                 onValueChange={setSelectedCity} // Add onValueChange handler
@@ -192,7 +190,6 @@ export default function RootPage() {
                   ))}
                 </SelectContent>
               </Select>
-
               <Select
                 value={selectedHotlineType}
                 onValueChange={value => setSelectedHotlineType(value)}
@@ -221,7 +218,6 @@ export default function RootPage() {
                   <div className="w-4 h-4 bg-gray-300 rounded animate-pulse"></div>
                 </div>
               </div>
-
               {/* Province Filter Skeleton */}
               <div className="flex-1 min-w-0 sm:flex-none sm:w-[250px] h-[52px] bg-gray-200 rounded-full animate-pulse flex items-center px-4">
                 <div className="flex items-center gap-2 w-full">
@@ -230,7 +226,6 @@ export default function RootPage() {
                   <div className="w-4 h-4 bg-gray-300 rounded animate-pulse"></div>
                 </div>
               </div>
-
               {/* City Filter Skeleton */}
               <div className="flex-1 min-w-0 sm:flex-none sm:w-[250px] h-[52px] bg-gray-200 rounded-full animate-pulse flex items-center px-4">
                 <div className="flex items-center gap-2 w-full">
