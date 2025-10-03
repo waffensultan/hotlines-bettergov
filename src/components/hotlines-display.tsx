@@ -121,7 +121,6 @@ const HotlinesDisplay: React.FC<HotlinesDisplayProps> = ({
           area
         </p>
       </div>
-
       {/* Hotlines Grid */}
       <div className="grid gap-4 md:gap-6">
         {hotlines.hotlines
