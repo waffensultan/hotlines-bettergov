@@ -3,7 +3,7 @@ import { Figtree } from 'next/font/google';
 
 import './globals.css';
 
-import InstallPrompt from '@/components/install-prompt';
+import InstallPrompt from '@/components/InstallPrompt';
 import { Toaster } from '@/components/ui/sonner';
 
 const font = Figtree({
