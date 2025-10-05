@@ -20,9 +20,6 @@ export default function InstallPrompt() {
       <div className="max-w-md mx-auto px-4 py-4 sm:py-5">
         <div className="flex flex-col items-center space-y-4">
           <h3 className="text-lg font-semibold text-gray-800 tracking-tight">Install App</h3>
-          <button className="w-full py-4 px-6 bg-red-600 text-white rounded-xl font-medium active:bg-red-700 hover:bg-red-700 transition-colors text-base shadow-sm">
-            Add to Home Screen
-          </button>
           {isIOS && (
             <p className="text-sm text-gray-600 text-center px-2 leading-relaxed">
               To install this app on your iOS device, tap the share button
