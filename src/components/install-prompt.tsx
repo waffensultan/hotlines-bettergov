@@ -4,11 +4,9 @@ import { Share } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 export default function InstallPrompt() {
-  const [isIOS, setIsIOS] = useState(false);
   const [isStandalone, setIsStandalone] = useState(false);
 
   useEffect(() => {
-    setIsIOS(/iPad|iPhone|iPod/.test(navigator.userAgent));
     setIsStandalone(window.matchMedia('(display-mode: standalone)').matches);
   }, []);
 
@@ -21,18 +19,16 @@ export default function InstallPrompt() {
       <div className="max-w-md mx-auto px-4 py-4 sm:py-5">
         <div className="flex flex-col items-center space-y-4">
           <h3 className="text-lg font-semibold text-gray-800 tracking-tight">Install App</h3>
-          {isIOS && (
-            <p className="text-sm text-gray-600 text-center px-2 leading-relaxed">
-              To install this app on your iOS device, tap the share button
-              <span role="img" aria-label="share icon" className="mx-2 inline-block">
-                <Share size={16} />
-              </span>
-              and then "Add to Home Screen"
-              <span role="img" aria-label="plus icon" className="mx-2 inline-block">
-                +
-              </span>
-            </p>
-          )}
+          <p className="text-sm text-gray-600 text-center px-2 leading-relaxed">
+            To install this app on your iOS device, tap the share button
+            <span role="img" aria-label="share icon" className="mx-2 inline-block">
+              <Share size={16} />
+            </span>
+            and then "Add to Home Screen"
+            <span role="img" aria-label="plus icon" className="mx-2 inline-block">
+              +
+            </span>
+          </p>
         </div>
       </div>
     </div>
