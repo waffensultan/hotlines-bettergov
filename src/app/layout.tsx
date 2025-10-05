@@ -1,7 +1,9 @@
 import type { Metadata } from 'next';
-import Nav from '@/components/nav';
 import './globals.css';
+
+import Nav from '@/components/nav';
 import Footer from '@/components/footer';
+import InstallPrompt from '@/components/install-prompt';
 
 export const metadata: Metadata = {
   title: 'Hotlines Philippines | Emergency Numbers Nationwide',
@@ -54,6 +56,7 @@ export default function RootLayout({
       <body>
         <Nav />
         {children}
+        <InstallPrompt />
         <Footer />
       </body>
     </html>
