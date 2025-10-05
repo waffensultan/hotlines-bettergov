@@ -20,14 +20,11 @@ export default function InstallPrompt() {
         <div className="flex flex-col items-center space-y-4">
           <h3 className="text-lg font-semibold text-gray-800 tracking-tight">Install App</h3>
           <p className="text-sm text-gray-600 text-center px-2 leading-relaxed">
-            To install this app on your iOS device, tap the share button
+            To install this as an app, tap the share button
             <span role="img" aria-label="share icon" className="mx-2 inline-block">
               <Share size={16} />
             </span>
             and then "Add to Home Screen"
-            <span role="img" aria-label="plus icon" className="mx-2 inline-block">
-              +
-            </span>
           </p>
         </div>
       </div>
