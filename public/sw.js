@@ -1,5 +1,5 @@
 // TODO: Move this to env var.
-const baseUrl = 'https://hotlines-bettergov.vercel.app';
+const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
 
 self.addEventListener('push', function (event) {
   if (event.data) {
