@@ -4,11 +4,12 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: 'Hotlines PH',
     short_name: 'Hotlines PH',
-    description: 'Philippine hotlines by BetterGov',
+    description: 'Philippine hotlines by BetterGov.PH',
     start_url: '/',
     display: 'standalone',
-    background_color: '#ffffff',
-    theme_color: '#000000',
+    orientation: 'portrait',
+    background_color: '#FFFFFF',
+    theme_color: '#FFFFFF',
     icons: [
       {
         src: '/web-app-manifest-192x192.png',
