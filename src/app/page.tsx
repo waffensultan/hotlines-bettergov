@@ -117,7 +117,7 @@ export default function RootPage() {
 
   return (
     <div className="bg-neutral-50">
-      <div className="relative bg-blue-800 min-h-[38vh] md:min-h-[35vh] flex flex-col justify-center px-4 md:px-32">
+      <div className="hidden lg:flex relative bg-blue-800 min-h-[38vh] flex-col justify-center px-4 lg:px-32">
         <div className="flex flex-col space-y-3">
           <h1 className="text-3xl md:text-6xl font-bold text-white leading-tight">
             Philippines Emergency Hotlines
@@ -137,13 +137,13 @@ export default function RootPage() {
         </div>
       </div>
       {/* SEARCH INPUT */}
-      <div className="flex justify-center items-center px-4 md:px-32 py-6 -mt-11 relative z-10">
+      <div className="justify-center items-center px-4 py-6 z-10 lg:flex lg:px-32 lg:-mt-11 lg:relative">
         <div className="flex flex-col gap-5 w-full max-w-6xl">
           {/* TODO: Update this so that it uses the selected region and then shows its respective cities (use a state for this) */}
           {metadata ? (
-            <div className="flex flex-row items-center justify-center gap-2 sm:gap-5 px-2 sm:px-6 w-full">
+            <div className="flex flex-col align-start justify-center gap-2 sm:gap-5 px-2 sm:px-6 w-full lg:flex-row lg:items-center">
               <Select value={selectedRegion} onValueChange={handleRegionChange}>
-                <SelectTrigger className="flex-1 min-w-0 sm:flex-none sm:w-[250px] py-5 bg-white text-sm sm:text-lg font-normal border-gray-300 rounded-full">
+                <SelectTrigger className="hidden lg:flex   flex-1 min-w-0 sm:flex-none sm:w-[250px] py-5 bg-white text-sm sm:text-lg font-normal border-gray-300 rounded-full">
                   <SelectValue placeholder={`Region: ${metadata.regions[0].code}`}>
                     {selectedRegion ? `Region: ${selectedRegion}` : null}
                   </SelectValue>
@@ -160,7 +160,7 @@ export default function RootPage() {
                 value={selectedProvince || ''} // Use value instead of defaultValue
                 onValueChange={handleProvinceChange} // Add onValueChange handler
               >
-                <SelectTrigger className="flex-1 min-w-0 sm:flex-none sm:w-[250px] py-5 bg-white text-sm sm:text-lg font-normal border-gray-300 rounded-full">
+                <SelectTrigger className="hidden lg:flex flex-1 min-w-0 sm:flex-none sm:w-[250px] py-5 bg-white text-sm sm:text-lg font-normal border-gray-300 rounded-full">
                   <SelectValue placeholder="Select Province">
                     {selectedProvince ? `Region: ${selectedProvince}` : null}
                   </SelectValue>
@@ -177,7 +177,7 @@ export default function RootPage() {
                 value={selectedCity || ''} // Use value instead of defaultValue
                 onValueChange={setSelectedCity} // Add onValueChange handler
               >
-                <SelectTrigger className="flex-1 min-w-0 sm:flex-none sm:w-[250px] py-5 bg-white text-sm sm:text-lg font-normal border-gray-300 rounded-full">
+                <SelectTrigger className="flex-1 w-full bg-white text-sm font-normal border-gray-300 lg:text-lg lg:min-w-0 lg:py-5 lg:rounded-full">
                   <SelectValue placeholder={`City: ${metadata.regions[0].provinces[0].cities[0]}`}>
                     {selectedCity ? `City: ${selectedCity}` : null}
                   </SelectValue>
@@ -194,7 +194,7 @@ export default function RootPage() {
                 value={selectedHotlineType}
                 onValueChange={value => setSelectedHotlineType(value)}
               >
-                <SelectTrigger className="flex-1 min-w-0 sm:flex-none sm:w-[270px] py-5 bg-white text-sm sm:text-lg font-normal border-gray-300 rounded-full">
+                <SelectTrigger className="flex-1 w-full bg-white text-sm font-normal border-gray-300 lg:text-lg lg:min-w-0 lg:py-5 lg:rounded-full">
                   <SelectValue placeholder={`Service: ${metadata.hotlineTypes[0]}`}>
                     {selectedHotlineType ? `Type:  ${selectedHotlineType}` : null}
                   </SelectValue>
@@ -247,7 +247,7 @@ export default function RootPage() {
           )}
         </div>
       </div>
-      <div className="px-4 md:px-32">
+      <div className="px-4 lg:px-32">
         {/* HOTLINES DISPLAY */}
         <HotlinesDisplay
           hotlines={hotlines}

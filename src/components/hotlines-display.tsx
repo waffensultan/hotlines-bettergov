@@ -105,7 +105,7 @@ const HotlinesDisplay: React.FC<HotlinesDisplayProps> = ({
   }
 
   return (
-    <div className="px-4 md:px-32 py-8">
+    <div className="px-4 lg:px-32 py-8">
       {/* Header */}
       <div className="mb-8">
         <div className="flex items-center gap-2 text-sm text-gray-600 mb-2">
