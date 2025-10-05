@@ -22,7 +22,7 @@ const HomeContent = () => {
 
   return (
     <div className="flex flex-col bg-slate-50 min-h-[100vh] mx-auto items-center">
-      <div className="px-4 py-4 flex flex-row items-center gap-3 bg-white mb-4 w-full">
+      <div className="px-4 py-4 flex flex-row items-center gap-3 bg-white mb-4 w-full border-b border-gray-300">
         <Image height={32} width={32} src={logo} alt="Logo" />
         <div>Hotlines PH by BetterGov.ph</div>
       </div>
