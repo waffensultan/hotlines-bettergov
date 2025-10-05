@@ -1,12 +1,19 @@
 import type { Metadata } from 'next';
+import { Figtree } from 'next/font/google';
+
 import './globals.css';
 
-import Nav from '@/components/nav';
-import Footer from '@/components/footer';
 import InstallPrompt from '@/components/install-prompt';
+import { Toaster } from '@/components/ui/sonner';
+
+const font = Figtree({
+  variable: '--font-figtree-sans',
+  subsets: ['latin'],
+});
 
 export const metadata: Metadata = {
-  title: 'Hotlines Philippines | Emergency Numbers Nationwide',
+  applicationName: 'Hotlines PH',
+  title: 'Hotlines PH | Emergency Numbers Nationwide',
   description:
     'Quick access to emergency hotlines across the Philippines. Find police, fire, medical, disaster, and government contacts by region, province, and city.',
   keywords: [
@@ -17,8 +24,16 @@ export const metadata: Metadata = {
     'government hotlines',
     'disaster response',
   ],
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'Hotlines PH',
+  },
+  formatDetection: {
+    telephone: false,
+  },
   openGraph: {
-    title: 'Hotlines Philippines',
+    title: 'Hotlines PH',
     description:
       'Find emergency hotlines for police, fire, medical, and government services in your area.',
     // url: 'https://yourdomain.com',
@@ -53,11 +68,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        <Nav />
+      <body className={`${font.variable} ${font.variable} antialiased`}>
         {children}
         <InstallPrompt />
-        <Footer />
+        <Toaster />
       </body>
     </html>
   );
