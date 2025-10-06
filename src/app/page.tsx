@@ -286,18 +286,32 @@ const HomeContent = () => {
 
       <div className="flex flex-col gap-4 max-w-[600px] w-full">
         {/* MAIN HOTLINE CARD */}
-        <div className="bg-gradient-to-br from-primary-400 to-primary-600 mx-4 p-6 rounded-2xl flex flex-col gap-1 shadow-lg">
-          <div className="text-white font-bold text-6xl">911</div>
-          <div className="flex flex-row justify-between items-center">
-            <div className="text-white text-lg">National Emergency hotline</div>
-            <Button
-              variant="default"
-              className="rounded-full bg-white/20 hover:bg-white/30 text-white backdrop-blur-sm"
-              size="lg"
-              onClick={() => (window.location.href = 'tel:911')}
-            >
-              <Phone className="h-5 w-5" />
-            </Button>
+        <div className="relative mx-4">
+          {/* Background button for 3D effect */}
+          <div className="absolute top-1 left-0 right-0 bg-gradient-to-br from-primary-400 to-primary-600 p-6 rounded-2xl shadow-lg z-0"></div>
+
+          {/* Main card */}
+          <div className="relative bg-gradient-to-br from-primary-400 to-primary-600 p-6 rounded-2xl flex flex-col gap-1 shadow-lg z-10">
+            <div className="text-white font-bold text-6xl">911</div>
+            <div className="flex flex-row justify-between items-center">
+              <div className="text-white text-lg">National Emergency hotline</div>
+              <div className="relative">
+                {/* Background phone button for 3D effect */}
+                <div className="absolute top-1 left-0 bg-white/15 rounded-full w-12 h-12 z-0 transition-all duration-150"></div>
+
+                {/* Main phone button */}
+                <div className="relative transition-all duration-150 active:translate-y-0.5">
+                  <Button
+                    variant="default"
+                    className="relative rounded-full bg-white/25 hover:bg-white/35 active:bg-white/40 text-white backdrop-blur-sm w-12 h-12 z-10 transition-all duration-150 active:shadow-none"
+                    size="lg"
+                    onClick={() => (window.location.href = 'tel:911')}
+                  >
+                    <Phone />
+                  </Button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
