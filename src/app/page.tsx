@@ -58,6 +58,21 @@ const HomeContent = () => {
 
     fetchData();
 
+    // Initialize service worker for PWA functionality
+    if (process.env.NODE_ENV === 'production') {
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js', {
+          scope: '/',
+        });
+      }
+    }
+  }, []);
+
+  useEffect(() => {
+    if (!metadata) {
+      return;
+    }
+
     const detectLocation = () => {
       const getCoords = (): Promise<GeolocationPosition> => {
         return new Promise((resolve, reject) => {
@@ -93,13 +108,26 @@ const HomeContent = () => {
           const data = await response.json();
           const city = data.city;
 
-          localStorage.setItem('lastSavedLocation', city);
-          console.log('Saved location!');
+          // Check if the detected city exists
+          // If it does, set it as a filtering option
+          const cityExists = metadata?.metadata.regions.some(region =>
+            region.provinces.some(province => province.cities.includes(city))
+          );
 
-          setFilterOptions(prev => ({
-            ...prev,
-            city: city,
-          }));
+          console.log('Metadata:', metadata);
+          console.log('City:', city);
+          console.log('City exists:', cityExists);
+
+          if (cityExists) {
+            localStorage.setItem('lastSavedLocation', city);
+            console.log('City:', city);
+            console.log('Saved location!');
+
+            setFilterOptions(prev => ({
+              ...prev,
+              city: city,
+            }));
+          }
 
           setIsDetectingLocation(false);
         } catch (err) {
@@ -122,21 +150,6 @@ const HomeContent = () => {
     };
 
     detectLocation();
-
-    // Initialize service worker for PWA functionality
-    if (process.env.NODE_ENV === 'production') {
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js', {
-          scope: '/',
-        });
-      }
-    }
-  }, []);
-
-  useEffect(() => {
-    if (!metadata) {
-      return;
-    }
 
     setFilterOptions(prev => ({
       ...prev,
@@ -205,6 +218,7 @@ const HomeContent = () => {
                               city: currentValue,
                             }));
                             setCitySelectOpen(false);
+                            localStorage.setItem('lastSavedLocation', city);
                           }}
                         >
                           <CheckIcon

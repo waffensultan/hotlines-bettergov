@@ -32,7 +32,17 @@ export async function GET(request: NextRequest) {
 
     const nominatimData = await nominatimRes.json();
 
-    const city = nominatimData.address.town;
+    const addr = nominatimData.address;
+    const city =
+      addr.city ||
+      addr.town ||
+      addr.village ||
+      addr.municipality ||
+      addr.county ||
+      addr.state_district ||
+      addr.state ||
+      addr.region ||
+      addr.country;
 
     return NextResponse.json({
       success: true,
