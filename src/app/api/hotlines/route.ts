@@ -10,7 +10,7 @@ export async function GET(request: NextRequest) {
     const city = request.nextUrl.searchParams.get('city');
     const hotlineType = request.nextUrl.searchParams.get('hotlineType');
 
-    const filePath = path.join(process.cwd(), 'public', 'hotlines.json');
+    const filePath = path.join(process.cwd(), 'public', 'data', 'hotlines.json');
     const file = await fs.readFile(filePath, 'utf8');
     const data: IHotlinesResponse = JSON.parse(file);
 

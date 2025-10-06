@@ -1,3 +1,7 @@
+export interface IMetadataResponse {
+  metadata: IMetadata;
+}
+
 export interface IMetadata {
   totalHotlines: number;
   regions: IRegion[];

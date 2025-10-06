@@ -1,59 +1,72 @@
 'use client';
 
-import { HotlineType } from '@/lib/data';
+import { THotlineCategory } from '@/interfaces/IHotlines';
 import { cn } from '@/lib/utils';
-import { Copy, Flame, Hospital, Landmark, Phone, Siren } from 'lucide-react';
+import { Copy, Flame, Hospital, Landmark, LucideIcon, Phone, Siren } from 'lucide-react';
 import { toast } from 'sonner';
 
 type HotlineCardProps = {
-  type: HotlineType;
+  type: THotlineCategory;
   name: string;
   contact: string;
   location?: string;
 };
 
-const icons = {
-  police: <Siren size={20} />,
-  fire: <Flame size={20} />,
-  health: <Hospital size={20} />,
-  other: <Landmark size={20} />,
-};
-
-const colors = {
-  police: {
-    background: 'bg-primary-100',
-    text: 'text-primary-500',
-  },
-  fire: {
-    background: 'bg-red-100',
-    text: 'text-red-500',
-  },
-  health: {
-    background: 'bg-green-100',
-    text: 'text-green-500',
-  },
-  other: {
-    background: 'bg-gray-100',
-    text: 'text-gray-500',
-  },
-};
-
 const HotlineCard: React.FC<HotlineCardProps> = ({ type, name, contact, location }) => {
+  const icons: Record<THotlineCategory, LucideIcon> = {
+    police_hotlines: Siren,
+    fire_hotlines: Flame,
+    medical_hotlines: Hospital,
+    government_hotlines: Landmark,
+    utility_hotlines: Landmark,
+    traffic_hotlines: Landmark,
+  };
+
+  const colors: Record<THotlineCategory, Record<string, string>> = {
+    police_hotlines: {
+      background: 'bg-primary-100',
+      text: 'text-primary-500',
+    },
+    fire_hotlines: {
+      background: 'bg-red-100',
+      text: 'text-red-500',
+    },
+    medical_hotlines: {
+      background: 'bg-green-100',
+      text: 'text-green-500',
+    },
+    government_hotlines: {
+      background: 'bg-gray-100',
+      text: 'text-gray-500',
+    },
+    utility_hotlines: {
+      background: 'bg-gray-100',
+      text: 'text-gray-500',
+    },
+    traffic_hotlines: {
+      background: 'bg-gray-100',
+      text: 'text-gray-500',
+    },
+  };
+
+  const Icon = icons[type];
+
   return (
     <div className="flex flex-row border-gray-300 mx-4 border py-4 px-6 rounded-xl shadow-xs gap-4 bg-white">
       <div>
         <div className={cn('rounded-xl', 'p-3', colors[type].background, colors[type].text)}>
-          {icons[type]}
+          <Icon />
         </div>
       </div>
       <div className="flex flex-col gap-2">
         <div className="flex flex-col">
           <div className="font-bold">{name}</div>
-          <div className="flex flex-col">
-            {location && <div className="text-gray-700 text-xs">{location}</div>}
+          <div className="flex flex-col gap-1">
+            {location && <div className="text-gray-700 text-xs text-neutral">{location}</div>}
             <div className="text-gray-700 text-xs">{contact}</div>
           </div>
         </div>
+
         <div className="flex flex-row">
           <div
             className="flex flex-row gap-2 items-center py-2 px-3 rounded-lg"

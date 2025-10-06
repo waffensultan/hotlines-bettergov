@@ -24,4 +24,10 @@ const serwist = new Serwist({
   ],
 });
 
+serwist.addToPrecacheList([
+  { url: '/data/metadata.json', revision: '1' },
+  { url: '/data/hotlines.json', revision: '1' },
+  { url: '/bettergov-horizontal-logo.png', revision: '1' },
+]);
+
 serwist.addEventListeners();
