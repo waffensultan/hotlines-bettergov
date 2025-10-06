@@ -22,6 +22,16 @@ const serwist = new Serwist({
       handler: new StaleWhileRevalidate({ cacheName: 'images' }),
     },
   ],
+  fallbacks: {
+    entries: [
+      {
+        url: '/',
+        matcher({ request }) {
+          return request.destination === 'document';
+        },
+      },
+    ],
+  },
 });
 
 serwist.addToPrecacheList([

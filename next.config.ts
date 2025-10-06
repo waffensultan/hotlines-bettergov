@@ -51,6 +51,7 @@ const withSerwist = withSerwistInit({
   swSrc: 'src/app/sw.ts',
   swDest: 'public/sw.js',
   cacheOnNavigation: true,
+  additionalPrecacheEntries: [{ url: '/', revision: '1' }],
 });
 
 export default withSerwist(nextConfig);
