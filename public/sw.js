@@ -1824,14 +1824,7 @@ This is generally NOT safe. Learn more at https://bit.ly/wb-precache`));
     ],
     eS = new eg({
       precacheEntries: [
-        {
-          revision: '7ab4ff0f6af91491cf419182e94c0d40',
-          url: '/_next/static/1EoOLvfXf43b-qFG0GhBE/_buildManifest.js',
-        },
-        {
-          revision: 'b6652df95db52feb4daf4eca35380933',
-          url: '/_next/static/1EoOLvfXf43b-qFG0GhBE/_ssgManifest.js',
-        },
+        { revision: '1', url: '/' },
         { revision: null, url: '/_next/static/chunks/150-2ad26b0de94c3728.js' },
         { revision: null, url: '/_next/static/chunks/2c3511fe-b97f9a252b8cd05c.js' },
         { revision: null, url: '/_next/static/chunks/417-c57e7510d06ad194.js' },
@@ -1839,15 +1832,19 @@ This is generally NOT safe. Learn more at https://bit.ly/wb-precache`));
         { revision: null, url: '/_next/static/chunks/613-e6ddbfca6cd3f804.js' },
         { revision: null, url: '/_next/static/chunks/827.56314768c792b6cf.js' },
         { revision: null, url: '/_next/static/chunks/app/_not-found/page-2ce247ab9bb8df36.js' },
-        { revision: null, url: '/_next/static/chunks/app/about/page-7fadbe7087fa47dd.js' },
-        { revision: null, url: '/_next/static/chunks/app/api/hotlines/route-7fadbe7087fa47dd.js' },
-        { revision: null, url: '/_next/static/chunks/app/api/metadata/route-7fadbe7087fa47dd.js' },
+        { revision: null, url: '/_next/static/chunks/app/about/page-78135080b2c91217.js' },
+        { revision: null, url: '/_next/static/chunks/app/api/hotlines/route-78135080b2c91217.js' },
+        { revision: null, url: '/_next/static/chunks/app/api/metadata/route-78135080b2c91217.js' },
+        {
+          revision: null,
+          url: '/_next/static/chunks/app/api/reverse-geocode/route-78135080b2c91217.js',
+        },
         { revision: null, url: '/_next/static/chunks/app/layout-f018b14fd0e6b822.js' },
         {
           revision: null,
-          url: '/_next/static/chunks/app/manifest.webmanifest/route-7fadbe7087fa47dd.js',
+          url: '/_next/static/chunks/app/manifest.webmanifest/route-78135080b2c91217.js',
         },
-        { revision: null, url: '/_next/static/chunks/app/page-f0190b3d3bc5d882.js' },
+        { revision: null, url: '/_next/static/chunks/app/page-5c09ceb6e3f3497c.js' },
         { revision: null, url: '/_next/static/chunks/d5fe8386-e3cf2722d127bcf9.js' },
         { revision: null, url: '/_next/static/chunks/framework-d64b5d05acc23894.js' },
         { revision: null, url: '/_next/static/chunks/main-5868bb352042bed0.js' },
@@ -1859,7 +1856,15 @@ This is generally NOT safe. Learn more at https://bit.ly/wb-precache`));
           url: '/_next/static/chunks/polyfills-42372ed130431b0a.js',
         },
         { revision: null, url: '/_next/static/chunks/webpack-644346ec128adac0.js' },
-        { revision: null, url: '/_next/static/css/e96aa0e58a7b163c.css' },
+        { revision: null, url: '/_next/static/css/c4d2e401b881652f.css' },
+        {
+          revision: '75fa040019280b9258031e451da8247d',
+          url: '/_next/static/fosyRQldgOfgcMZ_SNa9l/_buildManifest.js',
+        },
+        {
+          revision: 'b6652df95db52feb4daf4eca35380933',
+          url: '/_next/static/fosyRQldgOfgcMZ_SNa9l/_ssgManifest.js',
+        },
         {
           revision: '3de5ff84a89a06d11c78619f93aff323',
           url: '/_next/static/media/bettergov-horizontal-logo.6d198532.png',
@@ -1872,16 +1877,7 @@ This is generally NOT safe. Learn more at https://bit.ly/wb-precache`));
           revision: '392aed3eb1423f8bb5f11bc4ab5ab061',
           url: '/_next/static/media/de42cfb9a3b980ae-s.p.woff2',
         },
-        { revision: 'ede16ad8a253c6a80a9e2b45c09e2f3d', url: '/apple-touch-icon.png' },
-        { revision: '3de5ff84a89a06d11c78619f93aff323', url: '/bettergov-horizontal-logo.png' },
-        { revision: 'e3e25dc6dad14db044a7253e87cc38da', url: '/data\\hotlines.json' },
-        { revision: 'cf92de80e678bd003ec2dde480544db7', url: '/data\\metadata.json' },
-        { revision: 'b77020d5dd9001574608a0bf98084f62', url: '/favicon-96x96.png' },
-        { revision: '89a26d008cce69d88311b8473910b76f', url: '/favicon.ico' },
-        { revision: 'a9e37aa7be197ef95fa98ef7e08b5d93', url: '/favicon.svg' },
         { revision: '1666c6f1e8ae3b302483082700dd1822', url: '/swe-worker-ab00d3c7d2d59769.js' },
-        { revision: '7e1f49d9b045c165e6b79085e1c0e26f', url: '/web-app-manifest-192x192.png' },
-        { revision: '984bb038752350d51a2b77962fb7e702', url: '/web-app-manifest-512x512.png' },
       ],
       skipWaiting: !0,
       clientsClaim: !0,
@@ -1896,6 +1892,17 @@ This is generally NOT safe. Learn more at https://bit.ly/wb-precache`));
           handler: new eE({ cacheName: 'images' }),
         },
       ],
+      fallbacks: {
+        entries: [
+          {
+            url: '/',
+            matcher(e) {
+              let { request: t } = e;
+              return 'document' === t.destination;
+            },
+          },
+        ],
+      },
     });
   (eS.addToPrecacheList([
     { url: '/data/metadata.json', revision: '1' },

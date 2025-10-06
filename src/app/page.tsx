@@ -82,20 +82,16 @@ const HomeContent = () => {
 
           console.log('Coords:', { latitude, longitude });
 
-          const nominatimRes = await fetch(
-            `https://nominatim.openstreetmap.org/reverse?lat=${latitude}&lon=${longitude}&format=json`,
-            {
-              headers: {
-                'User-Agent': 'HotlinesPH/1.0 https://hotlines-bettergov.vercel.app/',
-                'Accept-Language': 'en',
-              },
-            }
+          const response = await fetch(
+            `/api/reverse-geocode?latitude=${latitude}&longitude=${longitude}`
           );
-          const nominatimData = await nominatimRes.json();
-          console.log('Reverse geocode:', nominatimData);
 
-          const city = nominatimData.address.town;
-          console.log('City:', city);
+          if (!response.ok) {
+            throw new Error('Failed to reverse geocode');
+          }
+
+          const data = await response.json();
+          const city = data.city;
 
           localStorage.setItem('lastSavedLocation', city);
           console.log('Saved location!');
