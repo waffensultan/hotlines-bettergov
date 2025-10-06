@@ -32,6 +32,7 @@ import { LandmarkIcon } from 'lucide-react';
 const HomeContent = () => {
   const [metadata, setMetadata] = useState<IMetadataResponse | null>();
   const [hotlines, setHotlines] = useState<IHotlinesResponse | null>();
+  const [isDetectingLocation, setIsDetectingLocation] = useState(true);
 
   const [filterOptions, setFilterOptions] = useState({
     city: '',
@@ -57,11 +58,82 @@ const HomeContent = () => {
 
     fetchData();
 
+    const detectLocation = () => {
+      const getCoords = (): Promise<GeolocationPosition> => {
+        return new Promise((resolve, reject) => {
+          navigator.geolocation.getCurrentPosition(
+            resolve,
+            error => {
+              console.error('Geolocation error:', error);
+              reject(error);
+            },
+            {
+              enableHighAccuracy: true,
+              timeout: 10000,
+            }
+          );
+        });
+      };
+
+      const getLocation = async () => {
+        try {
+          const location = await getCoords();
+          const { longitude, latitude } = location.coords;
+
+          console.log('Coords:', { latitude, longitude });
+
+          const nominatimRes = await fetch(
+            `https://nominatim.openstreetmap.org/reverse?lat=${latitude}&lon=${longitude}&format=json`,
+            {
+              headers: {
+                'User-Agent': 'HotlinesPH/1.0 https://hotlines-bettergov.vercel.app/',
+                'Accept-Language': 'en',
+              },
+            }
+          );
+          const nominatimData = await nominatimRes.json();
+          console.log('Reverse geocode:', nominatimData);
+
+          const city = nominatimData.address.town;
+          console.log('City:', city);
+
+          localStorage.setItem('lastSavedLocation', city);
+          console.log('Saved location!');
+
+          setFilterOptions(prev => ({
+            ...prev,
+            city: city,
+          }));
+
+          setIsDetectingLocation(false);
+        } catch (err) {
+          console.error('Error detecting location:', err);
+
+          // Offline/denied
+          const stored = localStorage.getItem('lastSavedLocation');
+          if (stored) {
+            setFilterOptions(prev => ({
+              ...prev,
+              city: stored,
+            }));
+          }
+
+          setIsDetectingLocation(false);
+        }
+      };
+
+      getLocation();
+    };
+
+    detectLocation();
+
     // Initialize service worker for PWA functionality
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/sw.js', {
-        scope: '/',
-      });
+    if (process.env.NODE_ENV === 'production') {
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js', {
+          scope: '/',
+        });
+      }
     }
   }, []);
 
@@ -76,8 +148,17 @@ const HomeContent = () => {
     }));
   }, [metadata]);
 
-  if (!hotlines || !metadata) {
-    return <div>Loading...</div>;
+  if (!hotlines || !metadata || isDetectingLocation) {
+    return (
+      <div className="flex items-center justify-center min-h-screen bg-gray-50">
+        <div className="text-center">
+          <div className="relative inline-flex">
+            <div className="w-16 h-16 border-4 border-blue-200 border-t-blue-600 rounded-full animate-spin"></div>
+          </div>
+          <p className="mt-4 text-blue-900 font-medium">Loading...</p>
+        </div>
+      </div>
+    );
   }
 
   let selectedHotlines = hotlines.hotlines.filter(hotline => hotline.city === filterOptions.city);
