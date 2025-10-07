@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "totalHotlines": 85,
+    "totalHotlines": 92,
     "regions": [
       {
         "code": "Region IV-A",
@@ -32,6 +32,25 @@
               "Tanza",
               "Ternate",
               "Trece Martires"
+            ]
+          },
+          {
+            "province": "Rizal",
+            "cities": [
+              "Angono",
+              "Antipolo",
+              "Baras",
+              "Binangonan",
+              "Cainta",
+              "Cardona",
+              "Jala-jala",
+              "Montalban",
+              "Morong",
+              "Pililla",
+              "San Mateo",
+              "Tanay",
+              "Taytay",
+              "Teresa"
             ]
           }
         ]
