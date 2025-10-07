@@ -267,7 +267,7 @@ const HomeContent = () => {
                   size="lg"
                   role="combobox"
                   aria-expanded={citySelectOpen}
-                  className={`${(filterOptions.category === value[hotlineType] || filterOptions.category === hotlineType) && 'bg-primary-500 text-white'} justify-between rounded-full hover:bg-primary-500 hover:text-white text-xs`}
+                  className={`${(filterOptions.category === value[hotlineType] || filterOptions.category === hotlineType) && 'bg-primary-500 text-white'} justify-between rounded-full hover:bg-primary-500 hover:text-white`}
                   onClick={() =>
                     setFilterOptions(prev => ({
                       ...prev,
