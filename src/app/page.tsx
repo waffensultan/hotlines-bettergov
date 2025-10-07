@@ -186,7 +186,7 @@ const HomeContent = () => {
       </div>
 
       {/* FITERING OPTIONS */}
-      <div className="flex flex-col gap-2 w-full px-3 pb-5">
+      <div className="flex flex-col gap-2 w-full px-3 pb-5 max-w-2xl">
         <Popover open={citySelectOpen} onOpenChange={setCitySelectOpen}>
           <PopoverTrigger asChild>
             <Button
@@ -239,7 +239,7 @@ const HomeContent = () => {
         </Popover>
       </div>
 
-      <div className="flex flex-col justify-center items-center gap-2 w-full">
+      <div className="flex flex-col justify-center items-center gap-2 max-w-2xl">
         <div className="flex w-full flex-row justify-center items-center gap-2 pb-5 flex-wrap">
           {['All Hotlines', 'Emergency', 'Medical', 'Utility', 'Government'].map(
             (hotlineType, index) => {
@@ -284,7 +284,7 @@ const HomeContent = () => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-4 max-w-[600px] w-full">
+      <div className="flex flex-col gap-4 max-w-2xl w-full">
         {/* MAIN HOTLINE CARD */}
         <div className="bg-gradient-to-br from-primary-400 to-primary-600 mx-4 p-6 rounded-2xl flex flex-col gap-1 shadow-lg">
           <div className="text-white font-bold text-6xl">911</div>
