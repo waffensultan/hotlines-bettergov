@@ -1,7 +1,17 @@
 {
   "metadata": {
-    "totalHotlines": 92,
+    "totalHotlines": 106,
     "regions": [
+      {
+        "code": "National Capital Region (NCR)",
+        "name": "National Capital Region (NCR)",
+        "provinces": [
+          {
+            "province": "Metro Manila",
+            "cities": ["Manila", "Caloocan", "Mandaluyong"]
+          }
+        ]
+      },
       {
         "code": "Region IV-A",
         "name": "CALABARZON",
