@@ -186,7 +186,7 @@ const HomeContent = () => {
       </div>
 
       {/* FITERING OPTIONS */}
-      <div className="flex flex-col gap-2 w-full px-3 pb-5">
+      <div className="flex flex-col gap-2 w-full px-3 pb-5 max-w-2xl">
         <Popover open={citySelectOpen} onOpenChange={setCitySelectOpen}>
           <PopoverTrigger asChild>
             <Button
@@ -239,7 +239,7 @@ const HomeContent = () => {
         </Popover>
       </div>
 
-      <div className="flex flex-col justify-center items-center gap-2 w-full">
+      <div className="flex flex-col justify-center items-center gap-2 max-w-2xl">
         <div className="flex w-full flex-row justify-center items-center gap-2 pb-5 flex-wrap">
           {['All Hotlines', 'Emergency', 'Medical', 'Utility', 'Government'].map(
             (hotlineType, index) => {
@@ -267,7 +267,7 @@ const HomeContent = () => {
                   size="lg"
                   role="combobox"
                   aria-expanded={citySelectOpen}
-                  className={`${(filterOptions.category === value[hotlineType] || filterOptions.category === hotlineType) && 'bg-primary-500 text-white'} justify-between rounded-full`}
+                  className={`${(filterOptions.category === value[hotlineType] || filterOptions.category === hotlineType) && 'bg-primary-500 text-white'} justify-between rounded-full hover:bg-primary-500 hover:text-white`}
                   onClick={() =>
                     setFilterOptions(prev => ({
                       ...prev,
@@ -307,6 +307,20 @@ const HomeContent = () => {
                 </div>
               </div>
             </div>
+      <div className="flex flex-col gap-4 max-w-2xl w-full">
+        {/* MAIN HOTLINE CARD */}
+        <div className="bg-gradient-to-br from-primary-400 to-primary-600 mx-4 p-6 rounded-2xl flex flex-col gap-1 shadow-lg">
+          <div className="text-white font-bold text-6xl">911</div>
+          <div className="flex flex-row justify-between items-center">
+            <div className="text-white text-lg">National Emergency hotline</div>
+            <Button
+              variant="default"
+              className="rounded-full bg-white/20 hover:bg-white/30 text-white backdrop-blur-sm"
+              size="lg"
+              onClick={() => (window.location.href = 'tel:911')}
+            >
+              <Phone className="h-5 w-5" />
+            </Button>
           </div>
         </div>
 
