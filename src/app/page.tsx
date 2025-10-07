@@ -239,8 +239,8 @@ const HomeContent = () => {
         </Popover>
       </div>
 
-      <div className="flex flex-col justify-center items-center gap-2 max-w-2xl">
-        <div className="flex w-full flex-row justify-center items-center gap-2 pb-3 flex-wrap">
+      <div className="flex flex-col justify-center items-center gap-2 w-full overflow-x-auto scrollbar-hide">
+        <div className="flex w-full flex-row gap-2 pb-3 px-4 md:justify-center">
           {['All Hotlines', 'Emergency', 'Medical', 'Utility', 'Government'].map(
             (hotlineType, index) => {
               const icons: Record<string, LucideIcon> = {
