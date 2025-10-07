@@ -1,26 +1,67 @@
 # 🇵🇭 Philippines Emergency Hotlines
 
-A web application for quick access to emergency hotlines across the Philippines.
+A progressive web application (PWA) for quick access to emergency hotlines across the Philippines.
 Users can search by region, province, city, and hotline type (police, fire, medical, government, etc.), and instantly get the right numbers for their area.
 
 Built with Next.js 13 (App Router), TypeScript, and React.
 
 ## Features
 
-- 🔍 Filter emergency hotlines by Region → Province → City
-- 📞 Filter by hotline type (e.g. Emergency, Medical, Police)
-- ⚡ Real-time data fetching from /api/metadata and /api/hotlines
+- 🔍 Filter emergency hotlines by Region → Province → City hierarchy
+- 📞 Filter by hotline type (Emergency, Medical, Police, Government, etc.)
+- ⚡ Real-time data fetching from structured JSON data sources
 - 🎨 Modern responsive UI with TailwindCSS + shadcn/ui
 - ⏳ Loading skeletons for a smooth UX
 - 📱 Mobile-friendly design
+- 🌐 Progressive Web App (PWA) capabilities:
+  - Offline access to hotline data
+  - Installable on mobile devices
+  - Fast loading with service worker caching
+  - Responsive across all device sizes
+
+## Data Structure
+
+The application uses two primary JSON files for data management:
+
+### metadata.json
+
+- Provides the hierarchical structure of locations (Region → Province → City)
+- Lists available hotline types and categories
+- Tracks total number of hotlines
+- Maintains last update timestamp
+- Makes contribution easier by providing a clear data structure
+
+### hotlines.json
+
+- Contains the comprehensive hotline data
+- Each entry includes:
+  - Unique ID
+  - Location information (region, province, city)
+  - Contact details with alternate numbers
+  - Service categorization
+  - Availability information
+  - Active status tracking
 
 ## Tech Stack
 
-- Next.js
+- Next.js 13 (App Router)
 - React
 - TypeScript
 - TailwindCSS
 - shadcn/ui
+- Serwist (PWA implementation)
+
+## Offline Functionality
+
+The app implements a robust offline-first approach:
+
+1. Service Worker caching for:
+   - Core application assets
+   - Hotline and metadata JSON files
+   - Images and static resources
+2. Stale-while-revalidate strategy for fresh content
+3. Offline fallback page
+4. Persistent data storage
 
 ## Getting Started
 
@@ -34,14 +75,11 @@ cd hotlines-bettergov
 2. Install dependencies
 
 ```bash
-
-
 npm install
 # or
 yarn install
 # or
 pnpm install
-
 ```
 
 3. Run the development server
@@ -52,12 +90,15 @@ npm run dev
 
 ## Contributing
 
-Contributions are welcome!
+Contributions are welcome! The data structure makes it easy to add or update hotline information:
 
 1. Fork the repo
-2. Create a new branch (feature/awesome-thing)
-3. Commit changes
-4. Open a Pull Request
+2. Update the relevant JSON files:
+   - Add new hotlines to `hotlines.json`
+   - Update metadata in `metadata.json` if adding new regions/provinces/cities
+3. Create a new branch (feature/awesome-thing)
+4. Commit changes
+5. Open a Pull Request
 
 ## BetterGov
 
