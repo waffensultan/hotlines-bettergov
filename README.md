@@ -7,7 +7,7 @@ Built with Next.js 15 (App Router), TypeScript, and React.
 
 ## Features
 
-- 🔍 Filter emergency hotlines by Region → Province → City hierarchy
+- 🔍 Filter emergency hotlines by City/Municipality
 - 📞 Filter by hotline type (Emergency, Medical, Police, Government, etc.)
 - ⚡ Real-time data fetching from structured JSON data sources
 - 🎨 Modern responsive UI with TailwindCSS + shadcn/ui
