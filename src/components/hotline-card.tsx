@@ -2,8 +2,7 @@
 
 import { THotlineCategory } from '@/interfaces/IHotlines';
 import { cn } from '@/lib/utils';
-import { Copy, Flame, Hospital, Landmark, LucideIcon, Phone, Siren } from 'lucide-react';
-import { toast } from 'sonner';
+import { Flame, Hospital, Landmark, LucideIcon, Phone, Siren } from 'lucide-react';
 
 type HotlineCardProps = {
   type: THotlineCategory;
@@ -52,7 +51,10 @@ const HotlineCard: React.FC<HotlineCardProps> = ({ type, name, contact, location
   const Icon = icons[type];
 
   return (
-    <div className="flex flex-row border-gray-300 mx-4 border py-4 px-6 rounded-xl shadow-xs gap-4 bg-white">
+    <a
+      href={`tel:${contact}`}
+      className="flex flex-row border-gray-300 mx-4 border py-4 px-6 rounded-xl shadow-xs gap-4 bg-white"
+    >
       <div>
         <div className={cn('rounded-xl', 'p-3', colors[type].background, colors[type].text)}>
           <Icon />
@@ -63,35 +65,39 @@ const HotlineCard: React.FC<HotlineCardProps> = ({ type, name, contact, location
           <div className="font-bold">{name}</div>
           <div className="flex flex-col gap-1">
             {location && <div className="text-gray-700 text-xs text-neutral">{location}</div>}
-            <div className="text-gray-700 text-xs">{contact}</div>
+            <div className="text-gray-800 text-sm">{contact}</div>
+            <div className="flex items-center gap-2 text-blue-600 text-sm">
+              <Phone size={14} />
+              <span>Tap to call</span>
+            </div>
           </div>
         </div>
 
-        <div className="flex flex-row">
-          <div
-            className="flex flex-row gap-2 items-center py-2 px-3 rounded-lg"
-            role="button"
-            onClick={() => {
-              window.location.href = `tel:${contact}`;
-            }}
-          >
-            <Phone size={16} />
-            <span>Call</span>
-          </div>
-          <div
-            className="flex flex-row gap-2 items-center py-2 px-3 rounded-lg"
-            role="button"
-            onClick={() => {
-              navigator.clipboard.writeText(contact);
-              toast.success('Successfully copied to clipboard.');
-            }}
-          >
-            <Copy size={16} />
-            <span>Copy</span>
-          </div>
-        </div>
+        {/* <div className="flex flex-row"> */}
+        {/*   <div */}
+        {/*     className="flex flex-row gap-2 items-center py-2 px-3 rounded-lg" */}
+        {/*     role="button" */}
+        {/*     onClick={() => { */}
+        {/*       window.location.href = `tel:${contact}`; */}
+        {/*     }} */}
+        {/*   > */}
+        {/*     <Phone size={16} /> */}
+        {/*     <span>Call</span> */}
+        {/*   </div> */}
+        {/*   <div */}
+        {/*     className="flex flex-row gap-2 items-center py-2 px-3 rounded-lg" */}
+        {/*     role="button" */}
+        {/*     onClick={() => { */}
+        {/*       navigator.clipboard.writeText(contact); */}
+        {/*       toast.success('Successfully copied to clipboard.'); */}
+        {/*     }} */}
+        {/*   > */}
+        {/*     <Copy size={16} /> */}
+        {/*     <span>Copy</span> */}
+        {/*   </div> */}
+        {/* </div> */}
       </div>
-    </div>
+    </a>
   );
 };
 
