@@ -3,7 +3,7 @@
 A progressive web application (PWA) for quick access to emergency hotlines across the Philippines.
 Users can search by region, province, city, and hotline type (police, fire, medical, government, etc.), and instantly get the right numbers for their area.
 
-Built with Next.js 13 (App Router), TypeScript, and React.
+Built with Next.js 15 (App Router), TypeScript, and React.
 
 ## Features
 
