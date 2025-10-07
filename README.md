@@ -44,7 +44,7 @@ The application uses two primary JSON files for data management:
 
 ## Tech Stack
 
-- Next.js 13 (App Router)
+- Next.js 15 (App Router)
 - React
 - TypeScript
 - TailwindCSS
