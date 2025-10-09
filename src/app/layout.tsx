@@ -14,8 +14,7 @@ const font = Figtree({
 export const metadata: Metadata = {
   applicationName: 'Hotlines PH',
   title: 'Hotlines PH | Emergency Numbers Nationwide',
-  description:
-    'Quick access to emergency hotlines across the Philippines. Find police, fire, medical, disaster, and government contacts by region, province, and city.',
+  description: 'Quick access to emergency hotlines across the Philippines.',
   keywords: [
     'Philippines emergency numbers',
     'police hotline',
@@ -24,41 +23,40 @@ export const metadata: Metadata = {
     'government hotlines',
     'disaster response',
   ],
+  authors: [{ name: 'Waffen', url: 'https://github.com/waffensultan' }],
+  openGraph: {
+    title: 'Hotlines PH',
+    description: 'Quick access to emergency services across the Philippines.',
+    url: 'https://hotlines.bettergov.ph',
+    siteName: 'Hotlines PH',
+    images: [
+      // TODO: create an open graph image
+      // {
+      //   url: 'https://yourdomain.com/og-image.png',
+      //   width: 1200,
+      //   height: 630,
+      //   alt: 'Hotlines Philippines',
+      // },
+    ],
+    locale: 'en_PH',
+    type: 'website',
+  },
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
     title: 'Hotlines PH',
   },
+  manifest: '/manifest.webmanifest',
   formatDetection: {
     telephone: false,
   },
-  openGraph: {
-    title: 'Hotlines PH',
-    description:
-      'Find emergency hotlines for police, fire, medical, and government services in your area.',
-    // url: 'https://yourdomain.com',
-    siteName: 'Hotlines Philippines',
-    // images: [
-    //   {
-    //     url: 'https://yourdomain.com/og-image.png',
-    //     width: 1200,
-    //     height: 630,
-    //     alt: 'Hotlines Philippines',
-    //   },
-    // ],
-    locale: 'en_PH',
-    type: 'website',
-  },
   twitter: {
     card: 'summary_large_image',
-    title: 'Hotlines Philippines',
-    description:
-      'Emergency hotlines for police, fire, medical, and government services across the Philippines.',
+    title: 'Hotlines PH',
+    description: 'Quick access to emergency services across the Philippines.',
+    // TODO: create an open graph image
     // images: ['https://yourdomain.com/og-image.png'],
   },
-  // alternates: {
-  //   canonical: 'https://yourdomain.com',
-  // },
 };
 
 export default function RootLayout({
@@ -66,8 +64,25 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name: 'Hotlines PH',
+    description: 'Quick access to emergency services across the Philippines.',
+    applicationCategory: 'UtilityApplication',
+    operatingSystem: 'Any',
+  };
+
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c'),
+          }}
+        />
+      </head>
       <body className={`${font.variable} ${font.variable} antialiased`}>
         {children}
         <InstallPrompt />
