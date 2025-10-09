@@ -106,8 +106,6 @@ Contributions are welcome! The data structure makes it easy to add or update hot
   <img src="https://contrib.rocks/image?repo=waffensultan/hotlines-bettergov" />
 </a>
 
-Made with [contrib.rocks](https://contrib.rocks).
-
 ## BetterGov
 
 Part of the #BetterGovMovement initiative to make government services more accessible through technology.
