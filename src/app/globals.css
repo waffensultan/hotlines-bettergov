@@ -205,6 +205,11 @@
   * {
     @apply border-border outline-ring/50;
   }
+
+  html {
+    scrollbar-gutter: stable;
+  }
+
   body {
     @apply bg-background text-foreground;
   }
@@ -235,6 +240,7 @@ body {
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
+
 .scrollbar-hide {
   -ms-overflow-style: none;
   scrollbar-width: none;
