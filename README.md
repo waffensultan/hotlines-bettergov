@@ -100,6 +100,17 @@ Contributions are welcome! The data structure makes it easy to add or update hot
 4. Commit changes
 5. Open a Pull Request
 
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
 ## BetterGov
 
 Part of the #BetterGovMovement initiative to make government services more accessible through technology.
