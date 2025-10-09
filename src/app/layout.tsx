@@ -15,6 +15,9 @@ export const metadata: Metadata = {
   applicationName: 'Hotlines PH',
   title: 'Hotlines PH | Emergency Numbers Nationwide',
   description: 'Quick access to emergency hotlines across the Philippines.',
+  icons: {
+    icon: '/favicon.svg',
+  },
   keywords: [
     'Philippines emergency numbers',
     'police hotline',
