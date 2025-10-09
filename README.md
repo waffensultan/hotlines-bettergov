@@ -102,14 +102,11 @@ Contributions are welcome! The data structure makes it easy to add or update hot
 
 ## Contributors
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
+<a href="https://github.com/waffensultan/hotlines-bettergov/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=waffensultan/hotlines-bettergov" />
+</a>
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+Made with [contrib.rocks](https://contrib.rocks).
 
 ## BetterGov
 
