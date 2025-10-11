@@ -24,6 +24,8 @@
 .DS_Store
 *.pem
 TODOS.md
+requested_features.md
+bugs.md
 
 # debug
 npm-debug.log*
