@@ -309,7 +309,8 @@ const HomeContent = () => {
             key={index}
             type={hotline.category}
             name={hotline.hotlineName}
-            contact={hotline.hotlineNumber}
+            contactDisplay={hotline.hotlineNumber.number}
+            contactCallable={hotline.hotlineNumber.callable}
             location={hotline.city}
           />
         ))}

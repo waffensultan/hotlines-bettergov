@@ -6,17 +6,22 @@ export interface IHotline {
   id: string;
   hotlineType: THotlineType;
   hotlineName: string;
-  hotlineNumber: string;
+  hotlineNumber: THotline;
   regionName: string;
   regionCode: string;
   province: string;
   city: string;
   category: THotlineCategory;
   availability: string;
-  alternateNumbers: string[];
+  alternateNumbers: THotline[];
   abbreviation?: string;
   isActive: boolean;
 }
+
+export type THotline = {
+  number: string;
+  callable: string;
+};
 
 export type THotlineType =
   | 'Emergency Hotlines'

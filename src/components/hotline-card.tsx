@@ -7,11 +7,18 @@ import { Flame, Hospital, Landmark, LucideIcon, Phone, Siren } from 'lucide-reac
 type HotlineCardProps = {
   type: THotlineCategory;
   name: string;
-  contact: string;
+  contactDisplay: string;
+  contactCallable: string;
   location?: string;
 };
 
-const HotlineCard: React.FC<HotlineCardProps> = ({ type, name, contact, location }) => {
+const HotlineCard: React.FC<HotlineCardProps> = ({
+  type,
+  name,
+  contactDisplay,
+  contactCallable,
+  location,
+}) => {
   const icons: Record<THotlineCategory, LucideIcon> = {
     police_hotlines: Siren,
     fire_hotlines: Flame,
@@ -52,7 +59,7 @@ const HotlineCard: React.FC<HotlineCardProps> = ({ type, name, contact, location
 
   return (
     <a
-      href={`tel:${contact}`}
+      href={`tel:${contactCallable}`}
       className="flex flex-row border-gray-300 mx-4 border py-4 px-6 rounded-xl shadow-xs gap-4 bg-white"
     >
       <div>
@@ -65,37 +72,13 @@ const HotlineCard: React.FC<HotlineCardProps> = ({ type, name, contact, location
           <div className="font-bold">{name}</div>
           <div className="flex flex-col gap-1">
             {location && <div className="text-gray-700 text-xs text-neutral">{location}</div>}
-            <div className="text-gray-800 text-sm">{contact}</div>
+            <div className="text-gray-800 text-sm">{contactDisplay}</div>
             <div className="flex items-center gap-2 text-blue-600 text-sm">
               <Phone size={14} />
               <span>Tap to call</span>
             </div>
           </div>
         </div>
-
-        {/* <div className="flex flex-row"> */}
-        {/*   <div */}
-        {/*     className="flex flex-row gap-2 items-center py-2 px-3 rounded-lg" */}
-        {/*     role="button" */}
-        {/*     onClick={() => { */}
-        {/*       window.location.href = `tel:${contact}`; */}
-        {/*     }} */}
-        {/*   > */}
-        {/*     <Phone size={16} /> */}
-        {/*     <span>Call</span> */}
-        {/*   </div> */}
-        {/*   <div */}
-        {/*     className="flex flex-row gap-2 items-center py-2 px-3 rounded-lg" */}
-        {/*     role="button" */}
-        {/*     onClick={() => { */}
-        {/*       navigator.clipboard.writeText(contact); */}
-        {/*       toast.success('Successfully copied to clipboard.'); */}
-        {/*     }} */}
-        {/*   > */}
-        {/*     <Copy size={16} /> */}
-        {/*     <span>Copy</span> */}
-        {/*   </div> */}
-        {/* </div> */}
       </div>
     </a>
   );
