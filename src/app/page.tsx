@@ -17,7 +17,7 @@ import {
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 
 import { IMetadataResponse } from '@/interfaces/IMetadata';
-import { IHotlinesResponse, THotlineCategory } from '@/interfaces/IHotlines';
+import { IHotlinesResponse, THotlineCategory, THotlineType } from '@/interfaces/IHotlines';
 
 import { Button } from '@/components/ui/button';
 import { LucideIcon, Phone } from 'lucide-react';
@@ -34,9 +34,12 @@ const HomeContent = () => {
   const [hotlines, setHotlines] = useState<IHotlinesResponse | null>();
   const [isDetectingLocation, setIsDetectingLocation] = useState(true);
 
-  const [filterOptions, setFilterOptions] = useState({
+  const [filterOptions, setFilterOptions] = useState<{
+    city: string;
+    hotlineType: THotlineType | 'All Hotlines';
+  }>({
     city: '',
-    category: 'All Hotlines', // default
+    hotlineType: 'All Hotlines', // default
   });
 
   const [citySelectOpen, setCitySelectOpen] = useState(false);
@@ -172,11 +175,24 @@ const HomeContent = () => {
 
   let selectedHotlines = hotlines.hotlines.filter(hotline => hotline.city === filterOptions.city);
 
-  if (filterOptions.category && filterOptions.category !== 'All Hotlines') {
+  if (filterOptions.hotlineType && filterOptions.hotlineType !== 'All Hotlines') {
     selectedHotlines = selectedHotlines.filter(
-      hotline => hotline.category === filterOptions.category
+      hotline => hotline.hotlineType === filterOptions.hotlineType
     );
   }
+
+  const sort: Record<THotlineCategory, number> = {
+    police_hotlines: 0,
+    medical_hotlines: 1,
+    fire_hotlines: 2,
+    government_hotlines: 3,
+    utility_hotlines: 4,
+    traffic_hotlines: 5,
+  };
+
+  const sortedSelectedHotlines = selectedHotlines.sort(
+    (a, b) => sort[a.category] - sort[b.category]
+  );
 
   return (
     <div className="flex flex-col bg-slate-50 min-h-[100vh] mx-auto items-center pb-40">
@@ -243,19 +259,19 @@ const HomeContent = () => {
         <div className="flex w-full flex-row gap-2 pb-3 px-4 md:justify-center">
           {['All Hotlines', 'Emergency', 'Medical', 'Utility', 'Government'].map(
             (hotlineType, index) => {
+              const hotlineTypes: Record<string, THotlineType> = {
+                Emergency: 'Emergency Hotlines',
+                Medical: 'Medical Hotlines',
+                Utility: 'Utility Hotlines',
+                Government: 'Government Hotlines',
+              };
+
               const icons: Record<string, LucideIcon> = {
                 'All Hotlines': PhoneIcon,
                 Emergency: CircleAlertIcon,
                 Medical: AmbulanceIcon,
                 Utility: DropletIcon,
                 Government: LandmarkIcon,
-              };
-
-              const value: Record<string, THotlineCategory> = {
-                Emergency: 'police_hotlines',
-                Medical: 'medical_hotlines',
-                Utility: 'utility_hotlines',
-                Government: 'government_hotlines',
               };
 
               const Icon = icons[hotlineType];
@@ -267,11 +283,11 @@ const HomeContent = () => {
                   size="lg"
                   role="combobox"
                   aria-expanded={citySelectOpen}
-                  className={`${(filterOptions.category === value[hotlineType] || filterOptions.category === hotlineType) && 'bg-primary-500 text-white'} justify-between rounded-full hover:bg-primary-500 hover:text-white`}
+                  className={`${(filterOptions.hotlineType === hotlineTypes[hotlineType] || filterOptions.hotlineType === hotlineType) && 'bg-primary-500 text-white'} justify-between rounded-full hover:bg-primary-500 hover:text-white`}
                   onClick={() =>
                     setFilterOptions(prev => ({
                       ...prev,
-                      category: value[hotlineType] || hotlineType,
+                      hotlineType: hotlineTypes[hotlineType],
                     }))
                   }
                 >
@@ -304,7 +320,7 @@ const HomeContent = () => {
           </div>
         </a>
 
-        {selectedHotlines.map((hotline, index) => (
+        {sortedSelectedHotlines.map((hotline, index) => (
           <HotlineCard
             key={index}
             type={hotline.category}

@@ -199,7 +199,7 @@
     },
     {
       "id": "alfonso-mdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Municipal Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "046 443 9083",
@@ -240,7 +240,7 @@
     },
     {
       "id": "trece-martires-cdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "City Disaster Risk Reduction and Maintenance Office",
       "hotlineNumber": {
         "number": "0977 676 3491",
@@ -307,7 +307,7 @@
     },
     {
       "id": "indang-ldrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Local Disaster Risk Reduction Management Office",
       "hotlineNumber": {
         "number": "0915 206 6929",
@@ -444,7 +444,7 @@
     },
     {
       "id": "gma-mdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Municipal Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "046 443 9389",
@@ -542,7 +542,7 @@
     },
     {
       "id": "kawit-mdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Kawit Municipal Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "046 438 2449",
@@ -560,7 +560,7 @@
     },
     {
       "id": "tanza-mdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Tanza Municipal Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "0977 345 5035",
@@ -766,7 +766,7 @@
     },
     {
       "id": "carmona-mdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Carmona Municipal Disaster Risk reduction and Management Office",
       "hotlineNumber": {
         "number": "046 413 0188",
@@ -875,7 +875,7 @@
     },
     {
       "id": "gentrias-mdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "General Trias Municipal Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "0917 596 8676",
@@ -1005,7 +1005,7 @@
     },
     {
       "id": "maragondon-mdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Maragondon Municipal Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "0965 682 5414",
@@ -1090,7 +1090,7 @@
     },
     {
       "id": "noveleta-ldrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Noveleta Local Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "046 484 2564",
@@ -1131,7 +1131,7 @@
     },
     {
       "id": "cavite-city-cdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Cavite City City Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "0926 970 7556",
@@ -1252,7 +1252,7 @@
     },
     {
       "id": "dasmariñas-cdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Dasmariñas City Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "046 513 1766",
@@ -1342,7 +1342,7 @@
     },
     {
       "id": "bacoor-drrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Bacoor Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "046 417 0727",
@@ -1517,7 +1517,7 @@
     },
     {
       "id": "ternate-drrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Ternate Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "0920 111 2811",
@@ -1571,7 +1571,7 @@
     },
     {
       "id": "antipolo-cdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Antipolo City Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "(02) 8689-4576",
@@ -1598,7 +1598,7 @@
     },
     {
       "id": "angono-mdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Angono Municipal Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "(02) 8451-1711",
@@ -1625,7 +1625,7 @@
     },
     {
       "id": "baras-mdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Baras Municipal Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "0920-958-1070",
@@ -1643,7 +1643,7 @@
     },
     {
       "id": "binangonan-mdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Binangonan Municipal Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "(02) 8713-9370",
@@ -1666,7 +1666,7 @@
     },
     {
       "id": "cainta-mdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Cainta Municipal Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "(02) 8535-0131",
@@ -1684,7 +1684,7 @@
     },
     {
       "id": "cardona-mdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Cardona Municipal Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "(02) 8633-1052",
@@ -1707,7 +1707,7 @@
     },
     {
       "id": "jala-jala-mdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Jalajala Municipal Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "0975-855-6328",
@@ -1725,7 +1725,7 @@
     },
     {
       "id": "montalban-mdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Montalban Municipal Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "0969-614-4825",
@@ -1743,7 +1743,7 @@
     },
     {
       "id": "morong-mdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Morong Municipal Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "0919-081-7181",
@@ -1761,7 +1761,7 @@
     },
     {
       "id": "pililla-mdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Pililla Municipal Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "0917-939-8558",
@@ -1779,7 +1779,7 @@
     },
     {
       "id": "san-mateo-mdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "San Mateo Municipal Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "(02) 8297-8100 loc.129",
@@ -1807,7 +1807,7 @@
     },
     {
       "id": "tanay-mdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Tanay Municipal Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "0963-473-3333",
@@ -1825,7 +1825,7 @@
     },
     {
       "id": "taytay-mdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Taytay Municipal Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "0985-488-3352",
@@ -1852,7 +1852,7 @@
     },
     {
       "id": "teresa-mdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Teresa Municipal Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "0945-113-7077",
@@ -1947,7 +1947,7 @@
     },
     {
       "id": "mandaluyong-mdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Mandaluyong Disaster/Rescue",
       "hotlineNumber": {
         "number": "8533-2225",
@@ -2403,7 +2403,7 @@
     },
     {
       "id": "manila-cdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
+      "hotlineType": "Government Hotlines",
       "hotlineName": "Manila Disaster Risk Reduction and Management Office",
       "hotlineNumber": {
         "number": "8568-6909",
