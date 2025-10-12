@@ -17,7 +17,7 @@ import {
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 
 import { IMetadataResponse } from '@/interfaces/IMetadata';
-import { IHotlinesResponse, THotlineCategory, THotlineType } from '@/interfaces/IHotlines';
+import { IHotlinesResponse, THotlineCategory } from '@/interfaces/IHotlines';
 
 import { Button } from '@/components/ui/button';
 import { LucideIcon, Phone } from 'lucide-react';
@@ -28,6 +28,7 @@ import { CircleAlertIcon } from 'lucide-react';
 import { AmbulanceIcon } from 'lucide-react';
 import { DropletIcon } from 'lucide-react';
 import { LandmarkIcon } from 'lucide-react';
+import { SearchIcon } from 'lucide-react';
 
 const HomeContent = () => {
   const [metadata, setMetadata] = useState<IMetadataResponse | null>();
@@ -36,10 +37,10 @@ const HomeContent = () => {
 
   const [filterOptions, setFilterOptions] = useState<{
     city: string;
-    hotlineType: THotlineType | 'All Hotlines';
+    category: string;
   }>({
     city: '',
-    hotlineType: 'All Hotlines', // default
+    category: 'All Hotlines', // default
   });
 
   const [citySelectOpen, setCitySelectOpen] = useState(false);
@@ -175,9 +176,20 @@ const HomeContent = () => {
 
   let selectedHotlines = hotlines.hotlines.filter(hotline => hotline.city === filterOptions.city);
 
-  if (filterOptions.hotlineType && filterOptions.hotlineType !== 'All Hotlines') {
-    selectedHotlines = selectedHotlines.filter(
-      hotline => hotline.hotlineType === filterOptions.hotlineType
+  const hotlineTypeMap: Record<string, THotlineCategory[]> = {
+    'Emergency Hotlines': ['police_hotlines', 'fire_hotlines'],
+    'Medical Hotlines': ['medical_hotlines'],
+    'Government Hotlines': ['government_hotlines'],
+    'Utility Hotlines': ['utility_hotlines'],
+  };
+
+  if (
+    filterOptions !== null &&
+    filterOptions.category !== null &&
+    filterOptions.category !== 'All Hotlines'
+  ) {
+    selectedHotlines = selectedHotlines.filter(hotline =>
+      hotlineTypeMap[filterOptions.category].includes(hotline.category)
     );
   }
 
@@ -187,7 +199,6 @@ const HomeContent = () => {
     fire_hotlines: 2,
     government_hotlines: 3,
     utility_hotlines: 4,
-    traffic_hotlines: 5,
   };
 
   const sortedSelectedHotlines = selectedHotlines.sort(
@@ -257,13 +268,14 @@ const HomeContent = () => {
 
       <div className="flex flex-col justify-center items-center gap-2 w-full overflow-x-auto scrollbar-hide">
         <div className="flex w-full flex-row gap-2 pb-3 px-4 md:justify-center">
-          {['All Hotlines', 'Emergency', 'Medical', 'Utility', 'Government'].map(
+          {['All Hotlines', 'Emergency', 'Medical', 'Government', 'Utility'].map(
             (hotlineType, index) => {
-              const hotlineTypes: Record<string, THotlineType> = {
+              const hotlineCategoryMap: Record<string, string> = {
+                'All Hotlines': 'All Hotlines',
                 Emergency: 'Emergency Hotlines',
                 Medical: 'Medical Hotlines',
-                Utility: 'Utility Hotlines',
                 Government: 'Government Hotlines',
+                Utility: 'Utility Hotlines',
               };
 
               const icons: Record<string, LucideIcon> = {
@@ -283,11 +295,11 @@ const HomeContent = () => {
                   size="lg"
                   role="combobox"
                   aria-expanded={citySelectOpen}
-                  className={`${(filterOptions.hotlineType === hotlineTypes[hotlineType] || filterOptions.hotlineType === hotlineType) && 'bg-primary-500 text-white'} justify-between rounded-full hover:bg-primary-500 hover:text-white`}
+                  className={`${(filterOptions.category === hotlineCategoryMap[hotlineType] || filterOptions.category === hotlineType) && 'bg-primary-500 text-white'} justify-between rounded-full hover:bg-primary-500 hover:text-white`}
                   onClick={() =>
                     setFilterOptions(prev => ({
                       ...prev,
-                      hotlineType: hotlineTypes[hotlineType],
+                      category: hotlineCategoryMap[hotlineType] || 'all_hotlines',
                     }))
                   }
                 >
@@ -320,16 +332,49 @@ const HomeContent = () => {
           </div>
         </a>
 
-        {sortedSelectedHotlines.map((hotline, index) => (
-          <HotlineCard
-            key={index}
-            type={hotline.category}
-            name={hotline.hotlineName}
-            contactDisplay={hotline.hotlineNumber.number}
-            contactCallable={hotline.hotlineNumber.callable}
-            location={hotline.city}
-          />
-        ))}
+        {sortedSelectedHotlines.length > 0 ? (
+          sortedSelectedHotlines.map((hotline, index) => (
+            <HotlineCard
+              key={index}
+              type={hotline.category}
+              name={hotline.hotlineName}
+              number={hotline.hotlineNumber}
+              location={hotline.city}
+            />
+          ))
+        ) : (
+          <div className="flex flex-col items-center justify-center py-5 text-center text-sm">
+            <div className="relative mb-6">
+              <div className="w-24 h-24 bg-gray-100 rounded-full flex items-center justify-center">
+                <Phone className="w-12 h-12 text-gray-400" strokeWidth={1.5} />
+              </div>
+              <div className="absolute -bottom-1 -right-1 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
+                <SearchIcon className="w-4 h-4 text-white" />
+              </div>
+            </div>
+
+            <h3 className="text-xl font-semibold text-gray-800 mb-2">No Hotlines Found</h3>
+
+            <p className="text-muted-foreground mb-6 max-w-sm">
+              We couldn't find any emergency hotlines matching your current filters. Try adjusting
+              your search criteria or explore other locations.
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-3">
+              <button
+                className="gap-2 px-6 py-2.5 border border-gray-300 text-muted-foreground rounded-lg font-medium hover:bg-gray-50 transition-colors"
+                onClick={() => setFilterOptions(prev => ({ ...prev, category: 'All Hotlines' }))}
+              >
+                View All Hotlines
+              </button>
+            </div>
+
+            <p className="text-muted-foreground text-gray-500 mt-6">
+              Need immediate assistance? Call{' '}
+              <span className="font-semibold text-gray-700">911</span> for emergencies.
+            </p>
+          </div>
+        )}
       </div>
     </div>
   );

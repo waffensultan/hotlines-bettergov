@@ -7,25 +7,19 @@ import { Flame, Hospital, Landmark, LucideIcon, Phone, Siren } from 'lucide-reac
 type HotlineCardProps = {
   type: THotlineCategory;
   name: string;
-  contactDisplay: string;
-  contactCallable: string;
+  number: string;
   location?: string;
 };
 
-const HotlineCard: React.FC<HotlineCardProps> = ({
-  type,
-  name,
-  contactDisplay,
-  contactCallable,
-  location,
-}) => {
+const HotlineCard: React.FC<HotlineCardProps> = ({ type, name, number, location }) => {
+  // TODO: integrate alternate numbers
+
   const icons: Record<THotlineCategory, LucideIcon> = {
     police_hotlines: Siren,
     fire_hotlines: Flame,
     medical_hotlines: Hospital,
     government_hotlines: Landmark,
     utility_hotlines: Landmark,
-    traffic_hotlines: Landmark,
   };
 
   const colors: Record<THotlineCategory, Record<string, string>> = {
@@ -49,17 +43,13 @@ const HotlineCard: React.FC<HotlineCardProps> = ({
       background: 'bg-gray-100',
       text: 'text-gray-500',
     },
-    traffic_hotlines: {
-      background: 'bg-gray-100',
-      text: 'text-gray-500',
-    },
   };
 
   const Icon = icons[type];
 
   return (
     <a
-      href={`tel:${contactCallable}`}
+      href={`tel:${number}`}
       className="flex flex-row border-gray-300 mx-4 border py-4 px-6 rounded-xl shadow-xs gap-4 bg-white"
     >
       <div>
@@ -72,7 +62,7 @@ const HotlineCard: React.FC<HotlineCardProps> = ({
           <div className="font-bold">{name}</div>
           <div className="flex flex-col gap-1">
             {location && <div className="text-gray-700 text-xs text-neutral">{location}</div>}
-            <div className="text-gray-800 text-sm">{contactDisplay}</div>
+            <div className="text-gray-800 text-sm">{number}</div>
             <div className="flex items-center gap-2 text-blue-600 text-sm">
               <Phone size={14} />
               <span>Tap to call</span>

@@ -1,9 +1,7 @@
 {
   "metadata": {
-    "totalHotlines": 106,
     "regions": [
       {
-        "code": "National Capital Region (NCR)",
         "name": "National Capital Region (NCR)",
         "provinces": [
           {
@@ -13,8 +11,7 @@
         ]
       },
       {
-        "code": "Region IV-A",
-        "name": "CALABARZON",
+        "name": "Region IV-A",
         "provinces": [
           {
             "province": "Cavite",
@@ -66,19 +63,12 @@
         ]
       }
     ],
-    "hotlineTypes": [
-      "Emergency Hotlines",
-      "Medical Hotlines",
-      "Utility Hotlines",
-      "Government Hotlines"
-    ],
     "categories": [
       "fire_hotlines",
       "police_hotlines",
       "medical_hotlines",
       "utility_hotlines",
       "government_hotlines"
-    ],
-    "lastUpdated": "2025-09-23T10:30:00Z"
+    ]
   }
 }

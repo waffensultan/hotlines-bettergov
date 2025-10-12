@@ -1,2862 +1,1210 @@
 {
   "hotlines": [
     {
-      "id": "alfonso-pnp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Alfonso PNP",
-      "hotlineNumber": {
-        "number": "0906 536 6135",
-        "callable": "09065366135"
-      },
+      "hotlineNumber": "09065366135",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Alfonso",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "0998 967 3364",
-          "callable": "09989673364"
-        },
-        {
-          "number": "046 522 0800",
-          "callable": "0465220800"
-        }
-      ],
-      "abbreviation": "Alfonso Philippine National Police",
-      "isActive": true
+      "alternateNumbers": ["09989673364", "0465220800"]
     },
     {
-      "id": "tagaytay-pnp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Tagaytay Philippine National Police",
-      "hotlineNumber": {
-        "number": "046 413 1282",
-        "callable": "0464131282"
-      },
+      "hotlineNumber": "0464131282",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Tagaytay",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Tagaytay PNP",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "tagaytay-bfp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Tagaytay Bureau of Fire Protection",
-      "hotlineNumber": {
-        "number": "046 483 1193",
-        "callable": "0464831193"
-      },
+      "hotlineNumber": "0464831193",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Tagaytay",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Tagaytay BFP",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "tagaytay-rescue-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Tagaytay Rescue",
-      "hotlineNumber": {
-        "number": "046 483 0446",
-        "callable": "0464830446"
-      },
+      "hotlineNumber": "0464830446",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Tagaytay",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "tagaytay-health-001",
-      "hotlineType": "Medical Hotlines",
       "hotlineName": "Tagaytay City Health Office",
-      "hotlineNumber": {
-        "number": "046 483 0604",
-        "callable": "0464830604"
-      },
+      "hotlineNumber": "0464830604",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Tagaytay",
       "category": "medical_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "tagaytay-hospital-001",
-      "hotlineType": "Medical Hotlines",
       "hotlineName": "Ospital ng Tagaytay",
-      "hotlineNumber": {
-        "number": "046 483 2160",
-        "callable": "0464832160"
-      },
+      "hotlineNumber": "0464832160",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Tagaytay",
       "category": "medical_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "tagaytay-unihealth-001",
-      "hotlineType": "Medical Hotlines",
       "hotlineName": "Unihealth Tagaytay & Medical Center",
-      "hotlineNumber": {
-        "number": "046 413 1940",
-        "callable": "0464131940"
-      },
+      "hotlineNumber": "0464131940",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Tagaytay",
       "category": "medical_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "alfonso-bfp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Bureau of Fire Protection",
-      "hotlineNumber": {
-        "number": "0915 602 2113",
-        "callable": "09156022113"
-      },
+      "hotlineNumber": "09156022113",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Alfonso",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "0929 663 2424",
-          "callable": "09296632424"
-        },
-        {
-          "number": "046 522 0480",
-          "callable": "0465220480"
-        }
-      ],
-      "abbreviation": "BFP",
-      "isActive": true
+      "alternateNumbers": ["09296632424", "0465220480"]
     },
     {
-      "id": "alfonso-hospital-001",
-      "hotlineType": "Medical Hotlines",
       "hotlineName": "Hospital",
-      "hotlineNumber": {
-        "number": "0917 306 2419",
-        "callable": "09173062419"
-      },
+      "hotlineNumber": "09173062419",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Alfonso",
       "category": "medical_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "415 0190",
-          "callable": "4150190"
-        }
-      ],
-      "isActive": true
+      "alternateNumbers": ["4150190"]
     },
     {
-      "id": "alfonso-ambulance-001",
-      "hotlineType": "Medical Hotlines",
       "hotlineName": "Ambulance",
-      "hotlineNumber": {
-        "number": "0917 833 0206",
-        "callable": "09178330206"
-      },
+      "hotlineNumber": "09178330206",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Alfonso",
       "category": "medical_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "alfonso-mdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Municipal Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "046 443 9083",
-        "callable": "0464439083"
-      },
+      "hotlineNumber": "0464439083",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Alfonso",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "MDRRMO",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "trece-martires-pnp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Trece Martires City National Philippine Force",
-      "hotlineNumber": {
-        "number": "0977 680 1240",
-        "callable": "09776801240"
-      },
+      "hotlineNumber": "09776801240",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Trece Martires",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "686 3460",
-          "callable": "6863460"
-        }
-      ],
-      "abbreviation": "Trece Martires City PNP",
-      "isActive": true
+      "alternateNumbers": ["6863460"]
     },
     {
-      "id": "trece-martires-cdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "City Disaster Risk Reduction and Maintenance Office",
-      "hotlineNumber": {
-        "number": "0977 676 3491",
-        "callable": "09776763491"
-      },
+      "hotlineNumber": "09776763491",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Trece Martires",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "0949 629 8026",
-          "callable": "09496298026"
-        },
-        {
-          "number": "419 3858",
-          "callable": "4193858"
-        }
-      ],
-      "abbreviation": "CDRRMO",
-      "isActive": true
+      "alternateNumbers": ["09496298026", "4193858"]
     },
     {
-      "id": "indang-command-center-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Municipal Command Center",
-      "hotlineNumber": {
-        "number": "046 460 4708",
-        "callable": "0464604708"
-      },
+      "hotlineNumber": "0464604708",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Indang",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "046 460 4709",
-          "callable": "0464604709"
-        }
-      ],
-      "isActive": true
+      "alternateNumbers": ["0464604709"]
     },
     {
-      "id": "indang-pnp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Indang Philippine National Police",
-      "hotlineNumber": {
-        "number": "0949 184 9145",
-        "callable": "09491849145"
-      },
+      "hotlineNumber": "09491849145",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Indang",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Indang PNP",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "indang-ldrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Local Disaster Risk Reduction Management Office",
-      "hotlineNumber": {
-        "number": "0915 206 6929",
-        "callable": "09152066929"
-      },
+      "hotlineNumber": "09152066929",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Indang",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "0916 183 1458",
-          "callable": "09161831458"
-        }
-      ],
-      "abbreviation": "LDRRMO",
-      "isActive": true
+      "alternateNumbers": ["09161831458"]
     },
     {
-      "id": "indang-bfp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Bureau of Fire Protection",
-      "hotlineNumber": {
-        "number": "0915 603 4245",
-        "callable": "09156034245"
-      },
+      "hotlineNumber": "09156034245",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Indang",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "415 1217",
-          "callable": "4151217"
-        }
-      ],
-      "abbreviation": "BFP",
-      "isActive": true
+      "alternateNumbers": ["4151217"]
     },
     {
-      "id": "indang-health-center-001",
-      "hotlineType": "Medical Hotlines",
       "hotlineName": "Health Center",
-      "hotlineNumber": {
-        "number": "415 0286",
-        "callable": "4150286"
-      },
+      "hotlineNumber": "4150286",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Indang",
       "category": "medical_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "683 9772",
-          "callable": "6839772"
-        }
-      ],
-      "isActive": true
+      "alternateNumbers": ["6839772"]
     },
     {
-      "id": "indang-dswd-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Department of Social Welfare and Development",
-      "hotlineNumber": {
-        "number": "443 9074",
-        "callable": "4439074"
-      },
+      "hotlineNumber": "4439074",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Indang",
       "category": "government_hotlines",
-      "availability": "8AM-5PM",
-      "alternateNumbers": [],
-      "abbreviation": "DSWD",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "gma-smart-001",
-      "hotlineType": "Utility Hotlines",
       "hotlineName": "SMART",
-      "hotlineNumber": {
-        "number": "0928 687 2839",
-        "callable": "09286872839"
-      },
+      "hotlineNumber": "09286872839",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "General Mariano Alvarez",
       "category": "utility_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "gma-globe-001",
-      "hotlineType": "Utility Hotlines",
       "hotlineName": "GLOBE",
-      "hotlineNumber": {
-        "number": "0916 447 3598",
-        "callable": "09164473598"
-      },
+      "hotlineNumber": "09164473598",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "General Mariano Alvarez",
       "category": "utility_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "gma-health-office-001",
-      "hotlineType": "Medical Hotlines",
       "hotlineName": "Municipal Health Office",
-      "hotlineNumber": {
-        "number": "046 972 2093",
-        "callable": "0469722093"
-      },
+      "hotlineNumber": "0469722093",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "General Mariano Alvarez",
       "category": "medical_hotlines",
-      "availability": "8AM-5PM",
-      "alternateNumbers": [],
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "gma-mdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Municipal Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "046 443 9389",
-        "callable": "0464439389"
-      },
+      "hotlineNumber": "0464439389",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "General Mariano Alvarez",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "MDRRMO",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "kawit-operation-center-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Kawit Operation Center",
-      "hotlineNumber": {
-        "number": "0997 253 5503",
-        "callable": "09972535503"
-      },
+      "hotlineNumber": "09972535503",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Kawit",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "046 253 5503",
-          "callable": "0462535503"
-        }
-      ],
-      "isActive": true
+      "alternateNumbers": ["0462535503"]
     },
     {
-      "id": "kawit-public-safety-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Kawit Public Safety Office",
-      "hotlineNumber": {
-        "number": "0998 967 3356",
-        "callable": "09989673356"
-      },
+      "hotlineNumber": "09989673356",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Kawit",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "kawit-bfp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Kawit Bureau of Fire Protection",
-      "hotlineNumber": {
-        "number": "484 5250",
-        "callable": "4845250"
-      },
+      "hotlineNumber": "4845250",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Kawit",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Kawit BFP",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "kawit-mps-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Kawit Municipal Police Station",
-      "hotlineNumber": {
-        "number": "0926 815 3057",
-        "callable": "09268153057"
-      },
+      "hotlineNumber": "09268153057",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Kawit",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "046 686 7411",
-          "callable": "0466867411"
-        }
-      ],
-      "abbreviation": "Kawit MPS",
-      "isActive": true
+      "alternateNumbers": ["0466867411"]
     },
     {
-      "id": "kawit-mdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Kawit Municipal Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "046 438 2449",
-        "callable": "0464382449"
-      },
+      "hotlineNumber": "0464382449",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Kawit",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Kawit MDRRMO",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "tanza-mdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Tanza Municipal Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "0977 345 5035",
-        "callable": "09773455035"
-      },
+      "hotlineNumber": "09773455035",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Tanza",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "0928 757 9030",
-          "callable": "09287579030"
-        }
-      ],
-      "abbreviation": "Tanza MDRRMO",
-      "isActive": true
+      "alternateNumbers": ["09287579030"]
     },
     {
-      "id": "tanza-pnp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Tanza Philippines National Police",
-      "hotlineNumber": {
-        "number": "0917 850 2555",
-        "callable": "09178502555"
-      },
+      "hotlineNumber": "09178502555",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Tanza",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "0928 757 9030",
-          "callable": "09287579030"
-        }
-      ],
-      "abbreviation": "Tanza PNP",
-      "isActive": true
+      "alternateNumbers": ["09287579030"]
     },
     {
-      "id": "tanza-bfp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Tanza Bureau of Fire Protection",
-      "hotlineNumber": {
-        "number": "0915 602 1562",
-        "callable": "09156021562"
-      },
+      "hotlineNumber": "09156021562",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Tanza",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "046 505 6084",
-          "callable": "0465056084"
-        }
-      ],
-      "abbreviation": "Tanza BFP",
-      "isActive": true
+      "alternateNumbers": ["0465056084"]
     },
     {
-      "id": "naic-eru-001",
-      "hotlineType": "Medical Hotlines",
       "hotlineName": "Naic Emergency Response Unit",
-      "hotlineNumber": {
-        "number": "410 5725",
-        "callable": "4105725"
-      },
+      "hotlineNumber": "4105725",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Naic",
       "category": "medical_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "naic-pnp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Municipal Police Station",
-      "hotlineNumber": {
-        "number": "0917 637 1584",
-        "callable": "09176371584"
-      },
+      "hotlineNumber": "09176371584",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Naic",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "423 1434",
-          "callable": "4231434"
-        }
-      ],
-      "isActive": true
+      "alternateNumbers": ["4231434"]
     },
     {
-      "id": "naic-bfp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Naic Bureau of Fire Protection",
-      "hotlineNumber": {
-        "number": "0917 679 7861",
-        "callable": "09176797861"
-      },
+      "hotlineNumber": "09176797861",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Naic",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "412 1481",
-          "callable": "4121481"
-        }
-      ],
-      "isActive": true
+      "alternateNumbers": ["4121481"]
     },
     {
-      "id": "rosario-mps-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Rosario Municipal Police Station",
-      "hotlineNumber": {
-        "number": "046 438 1548",
-        "callable": "0464381548"
-      },
+      "hotlineNumber": "0464381548",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Rosario",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Rosario MPS",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "rosario-mtoc-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Municipal Traffic Operations Center",
-      "hotlineNumber": {
-        "number": "0939 634 9527",
-        "callable": "09396349527"
-      },
+      "hotlineNumber": "09396349527",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Rosario",
-      "category": "traffic_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "0927 453 4863",
-          "callable": "09274534863"
-        }
-      ],
-      "abbreviation": "MTOC",
-      "isActive": true
+      "category": "utility_hotlines",
+      "alternateNumbers": ["09274534863"]
     },
     {
-      "id": "silang-covid-001",
-      "hotlineType": "Medical Hotlines",
       "hotlineName": "Silang COVID-19 Hotline",
-      "hotlineNumber": {
-        "number": "0948 714 5188",
-        "callable": "09487145188"
-      },
+      "hotlineNumber": "09487145188",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Silang",
       "category": "medical_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "carmona-bfp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Carmona Bureau of Fire Protection",
-      "hotlineNumber": {
-        "number": "046 430 1666",
-        "callable": "0464301666"
-      },
+      "hotlineNumber": "0464301666",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Carmona",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Carmona BFP",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "carmona-mdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Carmona Municipal Disaster Risk reduction and Management Office",
-      "hotlineNumber": {
-        "number": "046 413 0188",
-        "callable": "0464130188"
-      },
+      "hotlineNumber": "0464130188",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Carmona",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Carmona MDRRMO",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "carmona-mho-001",
-      "hotlineType": "Medical Hotlines",
       "hotlineName": "Carmona Municipal Health Office",
-      "hotlineNumber": {
-        "number": "0915 374 8460",
-        "callable": "09153748460"
-      },
+      "hotlineNumber": "09153748460",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Carmona",
       "category": "medical_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "0956 897 6299",
-          "callable": "09568976299"
-        },
-        {
-          "number": "046 430 2372",
-          "callable": "0464302372"
-        },
-        {
-          "number": "046 443 5397",
-          "callable": "0464435397"
-        }
-      ],
-      "isActive": true
+      "alternateNumbers": ["09568976299", "0464302372", "0464435397"]
     },
     {
-      "id": "carmona-hospital-001",
-      "hotlineType": "Medical Hotlines",
       "hotlineName": "Pagamutang Bayan ng Carmona",
-      "hotlineNumber": {
-        "number": "046 430 1644",
-        "callable": "0464301644"
-      },
+      "hotlineNumber": "0464301644",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Carmona",
       "category": "medical_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "carmona-mswd-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Municipal Social Welfare and Development Office",
-      "hotlineNumber": {
-        "number": "046 430 3009",
-        "callable": "0464303009"
-      },
+      "hotlineNumber": "0464303009",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Carmona",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "gentrias-bfp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "General Trias Bureau of Fire Protection",
-      "hotlineNumber": {
-        "number": "0917 593 1522",
-        "callable": "09175931522"
-      },
+      "hotlineNumber": "09175931522",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "General Trias",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "046 513 7200",
-          "callable": "0465137200"
-        },
-        {
-          "number": "437 7625",
-          "callable": "4377625"
-        }
-      ],
-      "abbreviation": "General Trias BFP",
-      "isActive": true
+      "alternateNumbers": ["0465137200", "4377625"]
     },
     {
-      "id": "gentrias-mdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "General Trias Municipal Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "0917 596 8676",
-        "callable": "09175968676"
-      },
+      "hotlineNumber": "09175968676",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "General Trias",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "046 513 6986",
-          "callable": "0465136986"
-        },
-        {
-          "number": "509 5068",
-          "callable": "5095068"
-        }
-      ],
-      "abbreviation": "General Trias MDRRMO",
-      "isActive": true
+      "alternateNumbers": ["0465136986", "5095068"]
     },
     {
-      "id": "gentrias-pnp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "General Trias Philippine National Police",
-      "hotlineNumber": {
-        "number": "0917 622 3320",
-        "callable": "09176223320"
-      },
+      "hotlineNumber": "09176223320",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "General Trias",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "046 513 8600",
-          "callable": "0465138600"
-        },
-        {
-          "number": "437 7306",
-          "callable": "4377306"
-        }
-      ],
-      "abbreviation": "General Trias PNP",
-      "isActive": true
+      "alternateNumbers": ["0465138600", "4377306"]
     },
     {
-      "id": "amadeo-rescue-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Amadeo Rescue",
-      "hotlineNumber": {
-        "number": "0917 504 7419",
-        "callable": "09175047419"
-      },
+      "hotlineNumber": "09175047419",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Amadeo",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "amadeo-mps-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Amadeo Municipal Police Station",
-      "hotlineNumber": {
-        "number": "0965 199 3111",
-        "callable": "09651993111"
-      },
+      "hotlineNumber": "09651993111",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Amadeo",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Amadeo MPS",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "amadeo-bfp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Amadeo Bureau of Fire Protection",
-      "hotlineNumber": {
-        "number": "0915 601 6805",
-        "callable": "09156016805"
-      },
+      "hotlineNumber": "09156016805",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Amadeo",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "483 2490",
-          "callable": "4832490"
-        }
-      ],
-      "abbreviation": "Amadeo BFP",
-      "isActive": true
+      "alternateNumbers": ["4832490"]
     },
     {
-      "id": "amadeo-rhu-001",
-      "hotlineType": "Medical Hotlines",
       "hotlineName": "Amadeo Rural Health Unit",
-      "hotlineNumber": {
-        "number": "0965 819 8686",
-        "callable": "09658198686"
-      },
+      "hotlineNumber": "09658198686",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Amadeo",
       "category": "medical_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Amadeo RHU",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "maragondon-mdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Maragondon Municipal Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "0965 682 5414",
-        "callable": "09656825414"
-      },
+      "hotlineNumber": "09656825414",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Maragondon",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "0917 604 9696",
-          "callable": "09176049696"
-        },
-        {
-          "number": "0956 668 5003",
-          "callable": "09566685003"
-        }
-      ],
-      "abbreviation": "Maragondon MDRRMO",
-      "isActive": true
+      "alternateNumbers": ["09176049696", "09566685003"]
     },
     {
-      "id": "maragondon-hospital-001",
-      "hotlineType": "Medical Hotlines",
       "hotlineName": "Maragondon Hospital",
-      "hotlineNumber": {
-        "number": "046 412 0826",
-        "callable": "0464120826"
-      },
+      "hotlineNumber": "0464120826",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Maragondon",
       "category": "medical_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "maragondon-pnp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Maragondon Philippine National Police",
-      "hotlineNumber": {
-        "number": "0998 967 3369",
-        "callable": "09989673369"
-      },
+      "hotlineNumber": "09989673369",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Maragondon",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "046 412 1161",
-          "callable": "0464121161"
-        }
-      ],
-      "abbreviation": "Maragondon PNP",
-      "isActive": true
+      "alternateNumbers": ["0464121161"]
     },
     {
-      "id": "maragondon-bfp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Maragondon Bureau of Fire Protection",
-      "hotlineNumber": {
-        "number": "046 412 1911",
-        "callable": "0464121911"
-      },
+      "hotlineNumber": "0464121911",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Maragondon",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Maragondon BFP",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "noveleta-ldrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Noveleta Local Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "046 484 2564",
-        "callable": "0464842564"
-      },
+      "hotlineNumber": "0464842564",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Noveleta",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Noveleta LDRRMO",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "noveleta-mps-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Noveleta Municipal Police Station",
-      "hotlineNumber": {
-        "number": "0943 305 3100",
-        "callable": "09433053100"
-      },
+      "hotlineNumber": "09433053100",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Noveleta",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "046 438 1669",
-          "callable": "0464381669"
-        }
-      ],
-      "abbreviation": "Noveleta MPS",
-      "isActive": true
+      "alternateNumbers": ["0464381669"]
     },
     {
-      "id": "cavite-city-cdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Cavite City City Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "0926 970 7556",
-        "callable": "09269707556"
-      },
+      "hotlineNumber": "09269707556",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Cavite City",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Cavite City CDRRMO",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "cavite-city-bfp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Cavite City Bureau of Fire Protection",
-      "hotlineNumber": {
-        "number": "431 0308",
-        "callable": "4310308"
-      },
+      "hotlineNumber": "4310308",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Cavite City",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Cavite City BFP",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "imus-cho-001",
-      "hotlineType": "Medical Hotlines",
       "hotlineName": "City Health Office",
-      "hotlineNumber": {
-        "number": "0927 878 7777",
-        "callable": "09278787777"
-      },
+      "hotlineNumber": "09278787777",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Imus",
       "category": "medical_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "imus-odso-001",
-      "hotlineType": "Medical Hotlines",
       "hotlineName": "Overall Disease Surveillance Officer",
-      "hotlineNumber": {
-        "number": "0919 073 4977",
-        "callable": "09190734977"
-      },
+      "hotlineNumber": "09190734977",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Imus",
       "category": "medical_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "imus-dso1-001",
-      "hotlineType": "Medical Hotlines",
       "hotlineName": "DSO - Health Office 1",
-      "hotlineNumber": {
-        "number": "0998 370 5428",
-        "callable": "09983705428"
-      },
+      "hotlineNumber": "09983705428",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Imus",
       "category": "medical_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "imus-dso2-001",
-      "hotlineType": "Medical Hotlines",
       "hotlineName": "DSO - Health Office 2",
-      "hotlineNumber": {
-        "number": "0917 865 0427",
-        "callable": "09178650427"
-      },
+      "hotlineNumber": "09178650427",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Imus",
       "category": "medical_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "imus-dso3-001",
-      "hotlineType": "Medical Hotlines",
       "hotlineName": "DSO - Health Office 3",
-      "hotlineNumber": {
-        "number": "0932 346 4248",
-        "callable": "09323464248"
-      },
+      "hotlineNumber": "09323464248",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Imus",
       "category": "medical_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "dasmariñas-cdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Dasmariñas City Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "046 513 1766",
-        "callable": "0465131766"
-      },
+      "hotlineNumber": "0465131766",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Dasmariñas",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Dnsmarinas CDRRMO",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "dasmariñas-hospital-001",
-      "hotlineType": "Medical Hotlines",
       "hotlineName": "Pagamutan ng Dasmariñas",
-      "hotlineNumber": {
-        "number": "0998 566 5555",
-        "callable": "09985665555"
-      },
+      "hotlineNumber": "09985665555",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Dasmariñas",
       "category": "medical_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "046 481 4400",
-          "callable": "0464814400"
-        }
-      ],
-      "isActive": true
+      "alternateNumbers": ["0464814400"]
     },
     {
-      "id": "dasmariñas-pnp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Dasmariñas Philippine National Police",
-      "hotlineNumber": {
-        "number": "0956 800 3329",
-        "callable": "09568003329"
-      },
+      "hotlineNumber": "09568003329",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Dasmariñas",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "046 416 02545",
-          "callable": "04641602545"
-        },
-        {
-          "number": "046 416 2924",
-          "callable": "0464162924"
-        }
-      ],
-      "abbreviation": "Dasmariñas PNP",
-      "isActive": true
+      "alternateNumbers": ["04641602545", "0464162924"]
     },
     {
-      "id": "dasmariñas-bfp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Dasmariñas Bureau of Fire Protection",
-      "hotlineNumber": {
-        "number": "046 416 0875",
-        "callable": "0464160875"
-      },
+      "hotlineNumber": "0464160875",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Dasmariñas",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "046 424 2537",
-          "callable": "0464242537"
-        }
-      ],
-      "abbreviation": "Dasmariñas BFP",
-      "isActive": true
+      "alternateNumbers": ["0464242537"]
     },
     {
-      "id": "bacoor-drrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Bacoor Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "046 417 0727",
-        "callable": "0464170727"
-      },
+      "hotlineNumber": "0464170727",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Bacoor",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Bacoor DRRMO",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "bacoor-bfp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Bacoor Bureau of Fire Protection",
-      "hotlineNumber": {
-        "number": "046 417 6060",
-        "callable": "0464176060"
-      },
+      "hotlineNumber": "0464176060",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Bacoor",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Bacoor BFP",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "mendez-lgu-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Mendez Local Government Unit",
-      "hotlineNumber": {
-        "number": "0995 724 0980",
-        "callable": "09957240980"
-      },
+      "hotlineNumber": "09957240980",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Mendez",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "0920 460 1766",
-          "callable": "09204601766"
-        },
-        {
-          "number": "046 413 0601",
-          "callable": "0464130601"
-        }
-      ],
-      "abbreviation": "Mendez LGU",
-      "isActive": true
+      "alternateNumbers": ["09204601766", "0464130601"]
     },
     {
-      "id": "mendez-bfp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Mendez Bureau of Fire Protection",
-      "hotlineNumber": {
-        "number": "046 413 2237",
-        "callable": "0464132237"
-      },
+      "hotlineNumber": "0464132237",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Mendez",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Mendez BFP",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "magallanes-lgu-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Magallanes Local Government Unit",
-      "hotlineNumber": {
-        "number": "0915 275 9884",
-        "callable": "09152759884"
-      },
+      "hotlineNumber": "09152759884",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Magallanes",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Magallanes LGU",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "magallanes-bfp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Magallanes Bureau of Fire Protection",
-      "hotlineNumber": {
-        "number": "046 529 6245",
-        "callable": "0465296245"
-      },
+      "hotlineNumber": "0465296245",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Magallanes",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Magallanes BFP",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "gen-aguinaldo-rhu-001",
-      "hotlineType": "Medical Hotlines",
       "hotlineName": "Gen. Emilio Aguinaldo Rural Health Unit",
-      "hotlineNumber": {
-        "number": "0998 578 9793",
-        "callable": "09985789793"
-      },
+      "hotlineNumber": "09985789793",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "General Emilio Aguinaldo",
       "category": "medical_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "0917 571 4422",
-          "callable": "09175714422"
-        }
-      ],
-      "abbreviation": "Gen. Emilio Aguinaldo RHU",
-      "isActive": true
+      "alternateNumbers": ["09175714422"]
     },
     {
-      "id": "gen-aguinaldo-bfp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Gen. Emilio Aguinaldo Bureau of Fire Protection",
-      "hotlineNumber": {
-        "number": "0921 458 5937",
-        "callable": "09214585937"
-      },
+      "hotlineNumber": "09214585937",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "General Emilio Aguinaldo",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Gen. Emilio Aguinaldo BFP",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "ternate-mayor-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Office of the Mayor",
-      "hotlineNumber": {
-        "number": "046 402 2309",
-        "callable": "0464022309"
-      },
+      "hotlineNumber": "0464022309",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Ternate",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "ternate-drrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Ternate Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "0920 111 2811",
-        "callable": "09201112811"
-      },
+      "hotlineNumber": "09201112811",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Ternate",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Ternate DRRMO",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "ternate-bfp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Ternate Bureau of Fire Protection",
-      "hotlineNumber": {
-        "number": "0915 885 1640",
-        "callable": "09158851640"
-      },
+      "hotlineNumber": "09158851640",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Ternate",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Ternate BFP",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "ternate-pnp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Ternate Philippine National Police",
-      "hotlineNumber": {
-        "number": "0977 682 2553",
-        "callable": "09776822553"
-      },
+      "hotlineNumber": "09776822553",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Cavite",
       "city": "Ternate",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Ternate PNP",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "antipolo-cdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Antipolo City Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "(02) 8689-4576",
-        "callable": "0286894576"
-      },
+      "hotlineNumber": "0286894576",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Rizal",
       "city": "Antipolo",
       "category": "government_hotlines",
-      "availability": "unknown",
-      "alternateNumbers": [
-        {
-          "number": "0927-755-9911",
-          "callable": "09277559911"
-        },
-        {
-          "number": "0917-854-0842",
-          "callable": "09178540842"
-        }
-      ],
-      "abbreviation": "Antipolo CDRRMO",
-      "isActive": true
+      "alternateNumbers": ["09277559911", "09178540842"]
     },
     {
-      "id": "angono-mdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Angono Municipal Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "(02) 8451-1711",
-        "callable": "0284511711"
-      },
+      "hotlineNumber": "0284511711",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Rizal",
       "city": "Angono",
       "category": "government_hotlines",
-      "availability": "unknown",
-      "alternateNumbers": [
-        {
-          "number": "0917-810-9640",
-          "callable": "09178109640"
-        },
-        {
-          "number": "0917-326-3399",
-          "callable": "09173263399"
-        }
-      ],
-      "abbreviation": "Angono MDRRMO",
-      "isActive": true
+      "alternateNumbers": ["09178109640", "09173263399"]
     },
     {
-      "id": "baras-mdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Baras Municipal Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "0920-958-1070",
-        "callable": "09209581070"
-      },
+      "hotlineNumber": "09209581070",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Rizal",
       "city": "Baras",
       "category": "government_hotlines",
-      "availability": "unknown",
-      "alternateNumbers": [],
-      "abbreviation": "Baras MDRRMO",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "binangonan-mdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Binangonan Municipal Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "(02) 8713-9370",
-        "callable": "0287139370"
-      },
+      "hotlineNumber": "0287139370",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Rizal",
       "city": "Binangonan",
       "category": "government_hotlines",
-      "availability": "unknown",
-      "alternateNumbers": [
-        {
-          "number": "0965-623-8674",
-          "callable": "09656238674"
-        }
-      ],
-      "abbreviation": "Binangonan MDRRMO",
-      "isActive": true
+      "alternateNumbers": ["09656238674"]
     },
     {
-      "id": "cainta-mdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Cainta Municipal Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "(02) 8535-0131",
-        "callable": "0285350131"
-      },
+      "hotlineNumber": "0285350131",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Rizal",
       "city": "Cainta",
       "category": "government_hotlines",
-      "availability": "unknown",
-      "alternateNumbers": [],
-      "abbreviation": "Cainta MDRRMO",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "cardona-mdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Cardona Municipal Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "(02) 8633-1052",
-        "callable": "0286331052"
-      },
+      "hotlineNumber": "0286331052",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Rizal",
       "city": "Cardona",
       "category": "government_hotlines",
-      "availability": "unknown",
-      "alternateNumbers": [
-        {
-          "number": "0917-130-7943",
-          "callable": "09171307943"
-        }
-      ],
-      "abbreviation": "Cardona MDRRMO",
-      "isActive": true
+      "alternateNumbers": ["09171307943"]
     },
     {
-      "id": "jala-jala-mdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Jalajala Municipal Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "0975-855-6328",
-        "callable": "09758556328"
-      },
+      "hotlineNumber": "09758556328",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Rizal",
       "city": "Jalajala",
       "category": "government_hotlines",
-      "availability": "unknown",
-      "alternateNumbers": [],
-      "abbreviation": "Jala-jala MDRRMO",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "montalban-mdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Montalban Municipal Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "0969-614-4825",
-        "callable": "09696144825"
-      },
+      "hotlineNumber": "09696144825",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Rizal",
       "city": "Montalban",
       "category": "government_hotlines",
-      "availability": "unknown",
-      "alternateNumbers": [],
-      "abbreviation": "Montalban MDRRMO",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "morong-mdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Morong Municipal Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "0919-081-7181",
-        "callable": "09190817181"
-      },
+      "hotlineNumber": "09190817181",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Rizal",
       "city": "Morong",
       "category": "government_hotlines",
-      "availability": "unknown",
-      "alternateNumbers": [],
-      "abbreviation": "Morong MDRRMO",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "pililla-mdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Pililla Municipal Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "0917-939-8558",
-        "callable": "09179398558"
-      },
+      "hotlineNumber": "09179398558",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Rizal",
       "city": "Pililla",
       "category": "government_hotlines",
-      "availability": "unknown",
-      "alternateNumbers": [],
-      "abbreviation": "Pililla MDRRMO",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "san-mateo-mdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "San Mateo Municipal Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "(02) 8297-8100 loc.129",
-        "callable": "0282978100",
-        "extension": "129"
-      },
+      "hotlineNumber": "0282978100",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Rizal",
       "city": "San Mateo",
       "category": "government_hotlines",
-      "availability": "unknown",
-      "alternateNumbers": [
-        {
-          "number": "0954-3550-707",
-          "callable": "09543550707"
-        },
-        {
-          "number": "0985-3942-424",
-          "callable": "09853942424"
-        }
-      ],
-      "abbreviation": "San Mateo MDRRMO",
-      "isActive": true
+      "alternateNumbers": ["09543550707", "09853942424"]
     },
     {
-      "id": "tanay-mdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Tanay Municipal Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "0963-473-3333",
-        "callable": "09634733333"
-      },
+      "hotlineNumber": "09634733333",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Rizal",
       "city": "Tanay",
       "category": "government_hotlines",
-      "availability": "unknown",
-      "alternateNumbers": [],
-      "abbreviation": "Tanay MDRRMO",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "taytay-mdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Taytay Municipal Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "0985-488-3352",
-        "callable": "09854883352"
-      },
+      "hotlineNumber": "09854883352",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Rizal",
       "city": "Taytay",
       "category": "government_hotlines",
-      "availability": "unknown",
-      "alternateNumbers": [
-        {
-          "number": "0952-619-9511",
-          "callable": "09526199511"
-        },
-        {
-          "number": "0970-884-3791",
-          "callable": "09708843791"
-        }
-      ],
-      "abbreviation": "Taytay MDRRMO",
-      "isActive": true
+      "alternateNumbers": ["09526199511", "09708843791"]
     },
     {
-      "id": "teresa-mdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Teresa Municipal Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "0945-113-7077",
-        "callable": "09451137077"
-      },
+      "hotlineNumber": "09451137077",
       "regionName": "CALABARZON",
-      "regionCode": "Region IV-A",
       "province": "Rizal",
       "city": "Teresa",
       "category": "government_hotlines",
-      "availability": "unknown",
-      "alternateNumbers": [],
-      "abbreviation": "Teresa MDRRMO",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "caloocan-mdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Caloocan City Disaster Risk Reduction and Management Department",
-      "hotlineNumber": {
-        "number": "02-888-25664",
-        "callable": "0288825664"
-      },
+      "hotlineNumber": "0288825664",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Caloocan",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Caloocan City CDRRMO",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "mandaluyong-pnp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Mandaluyong Police",
-      "hotlineNumber": {
-        "number": "8532-2145",
-        "callable": "85322145"
-      },
+      "hotlineNumber": "85322145",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Mandaluyong",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Mandaluyong PNP",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "mandaluyong-bfp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Mandaluyong Bureau of Fire Protection",
-      "hotlineNumber": {
-        "number": "8532-2189",
-        "callable": "85322189"
-      },
+      "hotlineNumber": "85322189",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Mandaluyong",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "8532-2402",
-          "callable": "85322402"
-        }
-      ],
-      "abbreviation": "Mandaluyong BFP",
-      "isActive": true
+      "alternateNumbers": ["85322402"]
     },
     {
-      "id": "mandaluyong-hospital-001",
-      "hotlineType": "Medical Hotlines",
       "hotlineName": "Mandaluyong Hospital",
-      "hotlineNumber": {
-        "number": "8539-5500",
-        "callable": "85395500"
-      },
+      "hotlineNumber": "85395500",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Mandaluyong",
       "category": "medical_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Mandaluyong Hospital",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "mandaluyong-mdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Mandaluyong Disaster/Rescue",
-      "hotlineNumber": {
-        "number": "8533-2225",
-        "callable": "85332225"
-      },
+      "hotlineNumber": "85332225",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Mandaluyong",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Mandaluyong Disaster/Rescue",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "mandaluyong-city-health-office-001",
-      "hotlineType": "Medical Hotlines",
       "hotlineName": "Mandaluyong City Health Office",
-      "hotlineNumber": {
-        "number": "8534-0163",
-        "callable": "85340163"
-      },
+      "hotlineNumber": "85340163",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Mandaluyong",
       "category": "medical_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Mandaluyong CHO",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "mandaluyong-covid-001",
-      "hotlineType": "Medical Hotlines",
       "hotlineName": "Mandaluyong City Health Office",
-      "hotlineNumber": {
-        "number": "0916 255 8130",
-        "callable": "09162558130"
-      },
+      "hotlineNumber": "09162558130",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Mandaluyong",
       "category": "medical_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "0961 571 6959",
-          "callable": "09615716959"
-        }
-      ],
-      "abbreviation": "Mandaluyong CHO",
-      "isActive": true
+      "alternateNumbers": ["09615716959"]
     },
     {
-      "id": "manila-npa-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Station 1 Balut",
-      "hotlineNumber": {
-        "number": "253-6808",
-        "callable": "2536808"
-      },
+      "hotlineNumber": "2536808",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "996-7141",
-          "callable": "9967141"
-        },
-        {
-          "number": "524-1852",
-          "callable": "5241852"
-        },
-        {
-          "number": "513-4750",
-          "callable": "5134750"
-        },
-        {
-          "number": "701-1561",
-          "callable": "7011561"
-        }
-      ],
-      "abbreviation": "Manila MPC",
-      "isActive": true
+      "alternateNumbers": ["9967141", "5241852", "5134750", "7011561"]
     },
     {
-      "id": "manila-npa-002",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Station 2 Moriones",
-      "hotlineNumber": {
-        "number": "245-5002",
-        "callable": "2455002"
-      },
+      "hotlineNumber": "2455002",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "8251-2594",
-          "callable": "82512594"
-        },
-        {
-          "number": "546-4529",
-          "callable": "5464529"
-        },
-        {
-          "number": "257-117",
-          "callable": "257117"
-        }
-      ],
-      "abbreviation": "Manila MPC",
-      "isActive": true
+      "alternateNumbers": ["82512594", "5464529", "257117"]
     },
     {
-      "id": "manila-npa-003",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Station 3 Sta. Cruz",
-      "hotlineNumber": {
-        "number": "736-0474",
-        "callable": "7360474"
-      },
+      "hotlineNumber": "7360474",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "7369-9182",
-          "callable": "73699182"
-        },
-        {
-          "number": "256-3374",
-          "callable": "2563374"
-        },
-        {
-          "number": "741-9322",
-          "callable": "7419322"
-        },
-        {
-          "number": "736-9861",
-          "callable": "7369861"
-        }
-      ],
-      "abbreviation": "Manila MPC",
-      "isActive": true
+      "alternateNumbers": ["73699182", "2563374", "7419322", "7369861"]
     },
     {
-      "id": "manila-npa-004",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Station 4 Sampaloc",
-      "hotlineNumber": {
-        "number": "0927-368-5759",
-        "callable": "09273685759"
-      },
+      "hotlineNumber": "09273685759",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "985-5900",
-          "callable": "9855900"
-        },
-        {
-          "number": "493-6681",
-          "callable": "4936681"
-        },
-        {
-          "number": "493-0821",
-          "callable": "4930821"
-        }
-      ],
-      "abbreviation": "Manila MPC",
-      "isActive": true
+      "alternateNumbers": ["9855900", "4936681", "4930821"]
     },
     {
-      "id": "manila-npa-005",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Station 5 Ermita",
-      "hotlineNumber": {
-        "number": "521-9985",
-        "callable": "5219985"
-      },
+      "hotlineNumber": "5219985",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "police_hotlines",
-      "availability": "24/7",
       "alternateNumbers": [
-        {
-          "number": "386-9006",
-          "callable": "3869006"
-        },
-        {
-          "number": "392-4873",
-          "callable": "3924873"
-        },
-        {
-          "number": "547-7856",
-          "callable": "5477856"
-        },
-        {
-          "number": "391-0359",
-          "callable": "3910359"
-        },
-        {
-          "number": "536-6712",
-          "callable": "5366712"
-        },
-        {
-          "number": "473-0541",
-          "callable": "4730541"
-        },
-        {
-          "number": "496-6972",
-          "callable": "4966972"
-        },
-        {
-          "number": "463-7319",
-          "callable": "4637319"
-        }
-      ],
-      "abbreviation": "Manila MPC",
-      "isActive": true
+        "3869006",
+        "3924873",
+        "5477856",
+        "3910359",
+        "5366712",
+        "4730541",
+        "4966972",
+        "4637319"
+      ]
     },
     {
-      "id": "manila-npa-006",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Station 6 Sta. Ana",
-      "hotlineNumber": {
-        "number": "563-4619",
-        "callable": "5634619"
-      },
+      "hotlineNumber": "5634619",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "485-0706",
-          "callable": "4850706"
-        },
-        {
-          "number": "564-5805",
-          "callable": "5645805"
-        }
-      ],
-      "abbreviation": "Manila MPC",
-      "isActive": true
+      "alternateNumbers": ["4850706", "5645805"]
     },
     {
-      "id": "manila-npa-007",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Station 7 J. Abad Santos",
-      "hotlineNumber": {
-        "number": "252-8450",
-        "callable": "2528450"
-      },
+      "hotlineNumber": "2528450",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "526-0090",
-          "callable": "5260090"
-        },
-        {
-          "number": "703-9113",
-          "callable": "7039113"
-        }
-      ],
-      "abbreviation": "Manila MPC",
-      "isActive": true
+      "alternateNumbers": ["5260090", "7039113"]
     },
     {
-      "id": "manila-npa-008",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Station 8 Sta. Mesa",
-      "hotlineNumber": {
-        "number": "715-4124",
-        "callable": "7154124"
-      },
+      "hotlineNumber": "7154124",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "716-6526",
-          "callable": "7166526"
-        },
-        {
-          "number": "466-7346",
-          "callable": "4667346"
-        },
-        {
-          "number": "735-0036",
-          "callable": "7350036"
-        },
-        {
-          "number": "491-5752",
-          "callable": "4915752"
-        }
-      ],
-      "abbreviation": "Manila MPC",
-      "isActive": true
+      "alternateNumbers": ["7166526", "4667346", "7350036", "4915752"]
     },
     {
-      "id": "manila-npa-009",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Station 9 Malate",
-      "hotlineNumber": {
-        "number": "310-0045",
-        "callable": "3100045"
-      },
+      "hotlineNumber": "3100045",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "303-0638",
-          "callable": "3030638"
-        },
-        {
-          "number": "255-9684",
-          "callable": "2559684"
-        }
-      ],
-      "abbreviation": "Manila MPC",
-      "isActive": true
+      "alternateNumbers": ["3030638", "2559684"]
     },
     {
-      "id": "manila-npa-010",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Station 10 Pandacan",
-      "hotlineNumber": {
-        "number": "564-0565",
-        "callable": "5640565"
-      },
+      "hotlineNumber": "5640565",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "446-9932",
-          "callable": "4469932"
-        },
-        {
-          "number": "409-9198",
-          "callable": "4099198"
-        },
-        {
-          "number": "467-1679",
-          "callable": "4671679"
-        }
-      ],
-      "abbreviation": "Manila MPC",
-      "isActive": true
+      "alternateNumbers": ["4469932", "4099198", "4671679"]
     },
     {
-      "id": "manila-npa-011",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Station 11 Meisic",
-      "hotlineNumber": {
-        "number": "516-6734",
-        "callable": "5166734"
-      },
+      "hotlineNumber": "5166734",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "309-9110",
-          "callable": "3099110"
-        },
-        {
-          "number": "242-7322",
-          "callable": "2427322"
-        },
-        {
-          "number": "243-7322",
-          "callable": "2437322"
-        }
-      ],
-      "abbreviation": "Manila MPC",
-      "isActive": true
+      "alternateNumbers": ["3099110", "2427322", "2437322"]
     },
     {
-      "id": "manila-npa-012",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "DTOC MPD",
-      "hotlineNumber": {
-        "number": "02-8523-3378",
-        "callable": "0285233378"
-      },
+      "hotlineNumber": "0285233378",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Manila MPC",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "manila-npa-013",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "PIO MPD",
-      "hotlineNumber": {
-        "number": "8524-5288",
-        "callable": "85245288"
-      },
+      "hotlineNumber": "85245288",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "police_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Manila MPC",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "manila-cdrrmo-001",
-      "hotlineType": "Government Hotlines",
       "hotlineName": "Manila Disaster Risk Reduction and Management Office",
-      "hotlineNumber": {
-        "number": "8568-6909",
-        "callable": "85686909"
-      },
+      "hotlineNumber": "85686909",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "government_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "0932-662-2322",
-          "callable": "09326622322"
-        },
-        {
-          "number": "0950-700-3710",
-          "callable": "09507003710"
-        }
-      ],
-      "abbreviation": "Manila CDRRMO",
-      "isActive": true
+      "alternateNumbers": ["09326622322", "09507003710"]
     },
     {
-      "id": "manila-bfp-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila San Nicolas Fire Station",
-      "hotlineNumber": {
-        "number": "7000-5887",
-        "callable": "70005887"
-      },
+      "hotlineNumber": "70005887",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Manila San Nicolas BFP",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "manila-bfp-002",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Tanduay Fire Station",
-      "hotlineNumber": {
-        "number": "0956-942-6172",
-        "callable": "09569426172"
-      },
+      "hotlineNumber": "09569426172",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Manila Tanduay BFP",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "manila-bfp-003",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Paco Fire Station",
-      "hotlineNumber": {
-        "number": "8525-4714",
-        "callable": "85254714"
-      },
+      "hotlineNumber": "85254714",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "0976-483-6353",
-          "callable": "09764836353"
-        }
-      ],
-      "abbreviation": "Manila Paco BFP",
-      "isActive": true
+      "alternateNumbers": ["09764836353"]
     },
     {
-      "id": "manila-bfp-004",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Intramuros Fire Station",
-      "hotlineNumber": {
-        "number": "0956-958-6301",
-        "callable": "09569586301"
-      },
+      "hotlineNumber": "09569586301",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Manila Intramuros BFP",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "manila-bfp-005",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Pandacan Fire Station",
-      "hotlineNumber": {
-        "number": "8563-1074",
-        "callable": "85631074"
-      },
+      "hotlineNumber": "85631074",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "0950-429-2897",
-          "callable": "09504292897"
-        }
-      ],
-      "abbreviation": "Manila Pandacan BFP",
-      "isActive": true
+      "alternateNumbers": ["09504292897"]
     },
     {
-      "id": "manila-bfp-006",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Tondo Fire Station",
-      "hotlineNumber": {
-        "number": "8245-3403",
-        "callable": "82453403"
-      },
+      "hotlineNumber": "82453403",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "0946-727-0166",
-          "callable": "09467270166"
-        }
-      ],
-      "abbreviation": "Manila Tondo BFP",
-      "isActive": true
+      "alternateNumbers": ["09467270166"]
     },
     {
-      "id": "manila-bfp-007",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila San Lazaro Fire Station",
-      "hotlineNumber": {
-        "number": "8711-6924",
-        "callable": "87116924"
-      },
+      "hotlineNumber": "87116924",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "0928-940-6032",
-          "callable": "09289406032"
-        }
-      ],
-      "abbreviation": "Manila San Lazaro BFP",
-      "isActive": true
+      "alternateNumbers": ["09289406032"]
     },
     {
-      "id": "manila-bfp-008",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Sta Mesa Fire Station",
-      "hotlineNumber": {
-        "number": "0917-635-8570",
-        "callable": "09176358570"
-      },
+      "hotlineNumber": "09176358570",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Manila Sta Mesa BFP",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "manila-bfp-009",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Gagalangin Fire Station",
-      "hotlineNumber": {
-        "number": "0976-045-7030",
-        "callable": "09760457030"
-      },
+      "hotlineNumber": "09760457030",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Manila Gagalangin BFP",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "manila-bfp-010",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Sta Ana Fire Station",
-      "hotlineNumber": {
-        "number": "5310-7667",
-        "callable": "53107667"
-      },
+      "hotlineNumber": "53107667",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "0915-312-7884",
-          "callable": "09153127884"
-        }
-      ],
-      "abbreviation": "Manila Sta Ana BFP",
-      "isActive": true
+      "alternateNumbers": ["09153127884"]
     },
     {
-      "id": "manila-bfp-011",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Arroceros Fire Station",
-      "hotlineNumber": {
-        "number": "0995-987-0248",
-        "callable": "09959870248"
-      },
+      "hotlineNumber": "09959870248",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Manila Arroceros BFP",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "manila-bfp-012",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Sampaloc Fire Station",
-      "hotlineNumber": {
-        "number": "8740-7480",
-        "callable": "87407480"
-      },
+      "hotlineNumber": "87407480",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "8749-7194",
-          "callable": "87497194"
-        },
-        {
-          "number": "0905-692-3584",
-          "callable": "09056923584"
-        }
-      ],
-      "abbreviation": "Manila Sampaloc BFP",
-      "isActive": true
+      "alternateNumbers": ["87497194", "09056923584"]
     },
     {
-      "id": "manila-bfp-013",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Malacanang Fire Station",
-      "hotlineNumber": {
-        "number": "0976-076-0636",
-        "callable": "09760760636"
-      },
+      "hotlineNumber": "09760760636",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Manila Malacanang BFP",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "manila-bfp-014",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Bacood Fire Station",
-      "hotlineNumber": {
-        "number": "8714-6923 ",
-        "callable": "87146923"
-      },
+      "hotlineNumber": "87146923",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "0946-372-7530",
-          "callable": "09463727530"
-        }
-      ],
-      "abbreviation": "Manila Bacood BFP",
-      "isActive": true
+      "alternateNumbers": ["09463727530"]
     },
     {
-      "id": "manila-bfp-015",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila SRF Fire Station",
-      "hotlineNumber": {
-        "number": "8523-2850",
-        "callable": "85232850"
-      },
+      "hotlineNumber": "85232850",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "0920-527-3346",
-          "callable": "09205273346"
-        }
-      ],
-      "abbreviation": "Manila SRF BFP",
-      "isActive": true
+      "alternateNumbers": ["09205273346"]
     },
     {
-      "id": "manila-bfp-016",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila EMS San Lazaro/Comet Alpha",
-      "hotlineNumber": {
-        "number": "8711-6970",
-        "callable": "87116970"
-      },
+      "hotlineNumber": "87116970",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Manila EMS SL/CA",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "manila-bfp-017",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila EMS Intramuros/Comet Bravo",
-      "hotlineNumber": {
-        "number": "0997-560-2507",
-        "callable": "09975602507"
-      },
+      "hotlineNumber": "09975602507",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Manila EMS INTRAM/CB",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "manila-bfp-018",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila EMS Sampaloc/Comet Charlie",
-      "hotlineNumber": {
-        "number": "0956-788-4475",
-        "callable": "09567884475"
-      },
+      "hotlineNumber": "09567884475",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [],
-      "abbreviation": "Manila EMS SMPLC/CH",
-      "isActive": true
+      "alternateNumbers": []
     },
     {
-      "id": "manila-bfp-019",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Commel",
-      "hotlineNumber": {
-        "number": "5336-5138",
-        "callable": "53365138"
-      },
+      "hotlineNumber": "53365138",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "5336-5139",
-          "callable": "53365139"
-        },
-        {
-          "number": "0966-476-9700",
-          "callable": "09664769700"
-        },
-        {
-          "number": "0969-398-9700",
-          "callable": "09693989700"
-        }
-      ],
-      "abbreviation": "Manila Commel",
-      "isActive": true
+      "alternateNumbers": ["53365139", "09664769700", "09693989700"]
     },
     {
-      "id": "manila-cdrrmo-001",
-      "hotlineType": "Emergency Hotlines",
       "hotlineName": "Manila Commel",
-      "hotlineNumber": {
-        "number": "5336-5138",
-        "callable": "53365138"
-      },
+      "hotlineNumber": "53365138",
       "regionName": "National Capital Region (NCR)",
-      "regionCode": "National Capital Region (NCR)",
       "province": "Metro Manila",
       "city": "Manila",
       "category": "fire_hotlines",
-      "availability": "24/7",
-      "alternateNumbers": [
-        {
-          "number": "5336-5139",
-          "callable": "53365139"
-        },
-        {
-          "number": "0966-476-9700",
-          "callable": "09664769700"
-        },
-        {
-          "number": "0969-398-9700",
-          "callable": "09693989700"
-        }
-      ],
-      "abbreviation": "Manila Commel",
-      "isActive": true
+      "alternateNumbers": ["53365139", "09664769700", "09693989700"]
     }
   ]
 }
