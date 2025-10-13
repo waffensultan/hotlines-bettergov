@@ -31,6 +31,10 @@
         "name": "Region IV-A",
         "provinces": [
           {
+            "province": "Batangas",
+            "cities": ["Batangas City"]
+          },
+          {
             "province": "Cavite",
             "cities": [
               "Alfonso",
