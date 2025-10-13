@@ -6,7 +6,15 @@
         "provinces": [
           {
             "province": "Metro Manila",
-            "cities": ["Manila", "Caloocan", "Mandaluyong", "Quezon City", "Makati", "Taguig"]
+            "cities": [
+              "Manila",
+              "Caloocan",
+              "Mandaluyong",
+              "Quezon City",
+              "Makati",
+              "Taguig",
+              "Valenzuela"
+            ]
           }
         ]
       },

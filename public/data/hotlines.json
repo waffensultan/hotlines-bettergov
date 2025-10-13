@@ -1463,6 +1463,56 @@
       "city": "Taguig",
       "category": "police_hotlines",
       "alternateNumbers": ["09296315924", "092127800569"]
+    },
+
+    {
+      "hotlineName": "City Disaster Risk Valenzuela Reduction & Management Office",
+      "hotlineNumber": "83525000",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Valenzuela",
+      "category": "government_hotlines",
+      "alternateNumbers": ["82921405", "09190094045", "0917881639"]
+    },
+
+    {
+      "hotlineName": "Valenzuela City Fire Station",
+      "hotlineNumber": "82923519",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Valenzuela",
+      "category": "fire_hotlines",
+      "alternateNumbers": []
+    },
+
+    {
+      "hotlineName": "Police Station - Main Station",
+      "hotlineNumber": "83524000",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Valenzuela",
+      "category": "police_hotlines",
+      "alternateNumbers": ["09064197676", "09985987868"]
+    },
+
+    {
+      "hotlineName": "Valenzuela City Emergency Hospital",
+      "hotlineNumber": "83526000",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Valenzuela",
+      "category": "medical_hotlines",
+      "alternateNumbers": []
+    },
+
+    {
+      "hotlineName": "Valenzuela Medical Center",
+      "hotlineNumber": "82946711",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Valenzuela",
+      "category": "medical_hotlines",
+      "alternateNumbers": []
     }
   ]
 }
