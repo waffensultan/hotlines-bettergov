@@ -1205,6 +1205,35 @@
       "city": "Manila",
       "category": "fire_hotlines",
       "alternateNumbers": ["53365139", "09664769700", "09693989700"]
+    },
+    {
+      "hotlineName": "Helpline",
+      "hotlineNumber": "911",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Quezon City",
+      "category": "government_hotlines",
+      "alternateNumbers": []
+    },
+
+    {
+      "hotlineName": "Emergency Operations Center",
+      "hotlineNumber": "89884242",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Quezon City",
+      "category": "government_hotlines",
+      "alternateNumbers": ["09478859929", "09770312892"]
+    },
+
+    {
+      "hotlineName": "Emergency Medical Services / Urban Search and Rescue",
+      "hotlineNumber": "89284396",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Quezon City",
+      "category": "medical_hotlines",
+      "alternateNumbers": ["09478847498"]
     }
   ]
 }

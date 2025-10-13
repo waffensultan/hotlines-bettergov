@@ -6,7 +6,7 @@
         "provinces": [
           {
             "province": "Metro Manila",
-            "cities": ["Manila", "Caloocan", "Mandaluyong"]
+            "cities": ["Manila", "Caloocan", "Mandaluyong", "Quezon City"]
           }
         ]
       },
