@@ -1234,6 +1234,156 @@
       "city": "Quezon City",
       "category": "medical_hotlines",
       "alternateNumbers": ["09478847498"]
+    },
+
+    {
+      "hotlineName": "Makati City Hall Trunkline",
+      "hotlineNumber": "88701000",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Makati",
+      "category": "government_hotlines",
+      "alternateNumbers": []
+    },
+
+    {
+      "hotlineName": "Makati Command Control and Communications Center",
+      "hotlineNumber": "82365790",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Makati",
+      "category": "government_hotlines",
+      "alternateNumbers": ["168"]
+    },
+
+    {
+      "hotlineName": "Makati Police Department",
+      "hotlineNumber": "88871798",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Makati",
+      "category": "police_hotlines",
+      "alternateNumbers": ["09297936525"]
+    },
+
+    {
+      "hotlineName": "Bureau of Fire Protection",
+      "hotlineNumber": "88185150",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Makati",
+      "category": "fire_hotlines",
+      "alternateNumbers": ["88162553"]
+    },
+
+    {
+      "hotlineName": "Makati Anti Drug Abuse Council",
+      "hotlineNumber": "88701713",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Makati",
+      "category": "government_hotlines",
+      "alternateNumbers": ["88701715"]
+    },
+
+    {
+      "hotlineName": "Opistal ng Makati",
+      "hotlineNumber": "88826316",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Makati",
+      "category": "medical_hotlines",
+      "alternateNumbers": []
+    },
+
+    {
+      "hotlineName": "Makati Health Department",
+      "hotlineNumber": "88701607",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Makati",
+      "category": "medical_hotlines",
+      "alternateNumbers": ["88701605"]
+    },
+
+    {
+      "hotlineName": "Makati Health Program",
+      "hotlineNumber": "88998930",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Makati",
+      "category": "medical_hotlines",
+      "alternateNumbers": []
+    },
+
+    {
+      "hotlineName": "Veterinary Services Office",
+      "hotlineNumber": "88897949",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Makati",
+      "category": "medical_hotlines",
+      "alternateNumbers": []
+    },
+
+    {
+      "hotlineName": "Public Safety Department",
+      "hotlineNumber": "88193270",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Makati",
+      "category": "utility_hotlines",
+      "alternateNumbers": []
+    },
+
+    {
+      "hotlineName": "Makati Action Center",
+      "hotlineNumber": "88701436",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Makati",
+      "category": "utility_hotlines",
+      "alternateNumbers": ["88963443"]
+    },
+
+    {
+      "hotlineName": "Department of Environmental Services",
+      "hotlineNumber": "88999057",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Makati",
+      "category": "utility_hotlines",
+      "alternateNumbers": []
+    },
+
+    {
+      "hotlineName": "Public Employment Service Office",
+      "hotlineNumber": "88701226",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Makati",
+      "category": "utility_hotlines",
+      "alternateNumbers": ["88701230"]
+    },
+
+    {
+      "hotlineName": "Makati Social Welfare Department",
+      "hotlineNumber": "88701639",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Makati",
+      "category": "utility_hotlines",
+      "alternateNumbers": []
+    },
+
+    {
+      "hotlineName": "Makatizen Card Office",
+      "hotlineNumber": "88701090",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Makati",
+      "category": "utility_hotlines",
+      "alternateNumbers": ["88701093"]
     }
   ]
 }
