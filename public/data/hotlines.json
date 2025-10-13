@@ -1384,6 +1384,85 @@
       "city": "Makati",
       "category": "utility_hotlines",
       "alternateNumbers": ["88701093"]
+    },
+
+    {
+      "hotlineName": "Taguig Command Center",
+      "hotlineNumber": "87893200",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Taguig",
+      "category": "government_hotlines",
+      "alternateNumbers": []
+    },
+
+    {
+      "hotlineName": "Taguig Rescue",
+      "hotlineNumber": "09190703112",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Taguig",
+      "category": "government_hotlines",
+      "alternateNumbers": []
+    },
+
+    {
+      "hotlineName": "Doctor-on-Call",
+      "hotlineNumber": "09190799112",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Taguig",
+      "category": "medical_hotlines",
+      "alternateNumbers": []
+    },
+    {
+      "hotlineName": "Taguig Bureau of Fire Protection",
+      "hotlineNumber": "88370740",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Taguig",
+      "category": "fire_hotlines",
+      "alternateNumbers": []
+    },
+
+    {
+      "hotlineName": "Taguig Cit Hall Office Trunkline",
+      "hotlineNumber": "85557800",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Taguig",
+      "category": "government_hotlines",
+      "alternateNumbers": ["77958888"]
+    },
+
+    {
+      "hotlineName": "SM Aura Satellite Office",
+      "hotlineNumber": "77959999",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Taguig",
+      "category": "government_hotlines",
+      "alternateNumbers": []
+    },
+
+    {
+      "hotlineName": "Taguig PNP",
+      "hotlineNumber": "86423582",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Taguig",
+      "category": "police_hotlines",
+      "alternateNumbers": ["09985987932"]
+    },
+
+    {
+      "hotlineName": "Roadside Emergency Assistance",
+      "hotlineNumber": "86407006",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Taguig",
+      "category": "police_hotlines",
+      "alternateNumbers": ["09296315924", "092127800569"]
     }
   ]
 }
