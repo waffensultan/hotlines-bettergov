@@ -1513,6 +1513,126 @@
       "city": "Valenzuela",
       "category": "medical_hotlines",
       "alternateNumbers": []
+    },
+
+    {
+      "hotlineName": "City Hall Olongapo",
+      "hotlineNumber": "2222565",
+      "regionName": "Region III - Central Luzon",
+      "province": "Zambales",
+      "city": "Olongapo",
+      "category": "government_hotlines",
+      "alternateNumbers": ["6114800"]
+    },
+
+    {
+      "hotlineName": "DRRMO / Rescue",
+      "hotlineNumber": "09985937446",
+      "regionName": "Region III - Central Luzon",
+      "province": "Zambales",
+      "city": "Olongapo",
+      "category": "government_hotlines",
+      "alternateNumbers": []
+    },
+
+    {
+      "hotlineName": "Fire & Rescue",
+      "hotlineNumber": "2231415",
+      "regionName": "Region III - Central Luzon",
+      "province": "Zambales",
+      "city": "Olongapo",
+      "category": "fire_hotlines",
+      "alternateNumbers": []
+    },
+
+    {
+      "hotlineName": "Disaster Management Office",
+      "hotlineNumber": "09985367121",
+      "regionName": "Region III - Central Luzon",
+      "province": "Zambales",
+      "city": "Olongapo",
+      "category": "government_hotlines",
+      "alternateNumbers": []
+    },
+
+    {
+      "hotlineName": "SBMA Fire Department",
+      "hotlineNumber": "2524830",
+      "regionName": "Region III - Central Luzon",
+      "province": "Zambales",
+      "city": "Olongapo",
+      "category": "fire_hotlines",
+      "alternateNumbers": ["2524657"]
+    },
+
+    {
+      "hotlineName": "Sta Rita, Rescue, & Disaster Response",
+      "hotlineNumber": "09399560009",
+      "regionName": "Region III - Central Luzon",
+      "province": "Zambales",
+      "city": "Olongapo",
+      "category": "government_hotlines",
+      "alternateNumbers": ["2229225"]
+    },
+
+    {
+      "hotlineName": "Philippine RedCross",
+      "hotlineNumber": "09178892783",
+      "regionName": "Region III - Central Luzon",
+      "province": "Zambales",
+      "city": "Olongapo",
+      "category": "medical_hotlines",
+      "alternateNumbers": ["2222181"]
+    },
+
+    {
+      "hotlineName": "New Cabalan Fire & Rescue",
+      "hotlineNumber": "2245414",
+      "regionName": "Region III - Central Luzon",
+      "province": "Zambales",
+      "city": "Olongapo",
+      "category": "fire_hotlines",
+      "alternateNumbers": []
+    },
+
+    {
+      "hotlineName": "Old Cabalan Quick Emergency Response",
+      "hotlineNumber": "6031700",
+      "regionName": "Region III - Central Luzon",
+      "province": "Zambales",
+      "city": "Olongapo",
+      "category": "medical_hotlines",
+      "alternateNumbers": []
+    },
+
+    {
+      "hotlineName": "Gordon Heights Fire & Rescue",
+      "hotlineNumber": "2235497",
+      "regionName": "Region III - Central Luzon",
+      "province": "Zambales",
+      "city": "Olongapo",
+      "category": "fire_hotlines",
+      "alternateNumbers": []
+    },
+
+    {
+      "hotlineName": "Barretto Fire & Rescue",
+      "hotlineNumber": "2224295",
+      "regionName": "Region III - Central Luzon",
+      "province": "Zambales",
+      "city": "Olongapo",
+      "category": "fire_hotlines",
+      "alternateNumbers": []
+    },
+
+    {
+      "hotlineName": "East Bajac Bajac Fire & Rescue",
+      "hotlineNumber": "09174365998",
+      "regionName": "Region III - Central Luzon",
+      "province": "Zambales",
+      "city": "Olongapo",
+      "category": "fire_hotlines",
+      "alternateNumbers": ["2225035"]
     }
   ]
 }

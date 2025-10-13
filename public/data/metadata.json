@@ -19,6 +19,15 @@
         ]
       },
       {
+        "name": "Region III - Central Luzon",
+        "provinces": [
+          {
+            "province": "Zambales",
+            "cities": ["Olongapo"]
+          }
+        ]
+      },
+      {
         "name": "Region IV-A",
         "provinces": [
           {
