@@ -2027,6 +2027,69 @@
       "city": "Batangas City",
       "category": "government_hotlines",
       "alternateNumbers": []
+    },
+    {
+      "hotlineName": "San Pablo City Disaster Risk Reduction and Management Office (CDRRMO)",
+      "hotlineNumber": "09985407171",
+      "regionName": "Region IV-A",
+      "province": "Laguna",
+      "city": "San Pablo City",
+      "category": "government_hotlines",
+      "alternateNumbers": ["0498000405", "0495490500"]
+    },
+    {
+      "hotlineName": "San Pablo Bureau of Fire Protection (BFP)",
+      "hotlineNumber": "09995784943",
+      "regionName": "Region IV-A",
+      "province": "Laguna",
+      "city": "San Pablo City",
+      "category": "fire_hotlines",
+      "alternateNumbers": ["0495627654", "0495723868"]
+    },
+    {
+      "hotlineName": "San Pablo Philippine National Police (PNP)",
+      "hotlineNumber": "09081930819",
+      "regionName": "Region IV-A",
+      "province": "Laguna",
+      "city": "San Pablo City",
+      "category": "police_hotlines",
+      "alternateNumbers": ["09278377454", "0495626474"]
+    },
+    {
+      "hotlineName": "San Pablo Barangay Radio Control",
+      "hotlineNumber": "0495623086",
+      "regionName": "Region IV-A",
+      "province": "Laguna",
+      "city": "San Pablo City",
+      "category": "utility_hotlines",
+      "alternateNumbers": []
+    },
+    {
+      "hotlineName": "Lucena City Command Center",
+      "hotlineNumber": "09701285078",
+      "regionName": "Region IV-A",
+      "province": "Quezon",
+      "city": "Lucena City",
+      "category": "government_hotlines",
+      "alternateNumbers": ["09687195568", "0427316009"]
+    },
+    {
+      "hotlineName": "Lucena City Fire Station",
+      "hotlineNumber": "09996756455",
+      "regionName": "Region IV-A",
+      "province": "Quezon",
+      "city": "Lucena City",
+      "category": "fire_hotlines",
+      "alternateNumbers": ["0427972320", "0427100110"]
+    },
+    {
+      "hotlineName": "Lucena City Police Station",
+      "hotlineNumber": "09970658944",
+      "regionName": "Region IV-A",
+      "province": "Quezon",
+      "city": "Lucena City",
+      "category": "police_hotlines",
+      "alternateNumbers": ["09985985737", "0423737294", "0427884626"]
     }
   ]
 }
