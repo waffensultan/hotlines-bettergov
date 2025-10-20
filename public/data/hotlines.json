@@ -2033,7 +2033,7 @@
       "hotlineNumber": "09985407171",
       "regionName": "Region IV-A",
       "province": "Laguna",
-      "city": "San Pablo City",
+      "city": "San Pablo",
       "category": "government_hotlines",
       "alternateNumbers": ["0498000405", "0495490500"]
     },
@@ -2042,7 +2042,7 @@
       "hotlineNumber": "09995784943",
       "regionName": "Region IV-A",
       "province": "Laguna",
-      "city": "San Pablo City",
+      "city": "San Pablo",
       "category": "fire_hotlines",
       "alternateNumbers": ["0495627654", "0495723868"]
     },
@@ -2051,7 +2051,7 @@
       "hotlineNumber": "09081930819",
       "regionName": "Region IV-A",
       "province": "Laguna",
-      "city": "San Pablo City",
+      "city": "San Pablo",
       "category": "police_hotlines",
       "alternateNumbers": ["09278377454", "0495626474"]
     },
@@ -2060,7 +2060,7 @@
       "hotlineNumber": "0495623086",
       "regionName": "Region IV-A",
       "province": "Laguna",
-      "city": "San Pablo City",
+      "city": "San Pablo",
       "category": "utility_hotlines",
       "alternateNumbers": []
     },
@@ -2069,7 +2069,7 @@
       "hotlineNumber": "09701285078",
       "regionName": "Region IV-A",
       "province": "Quezon",
-      "city": "Lucena City",
+      "city": "Lucena",
       "category": "government_hotlines",
       "alternateNumbers": ["09687195568", "0427316009"]
     },
@@ -2078,7 +2078,7 @@
       "hotlineNumber": "09996756455",
       "regionName": "Region IV-A",
       "province": "Quezon",
-      "city": "Lucena City",
+      "city": "Lucena",
       "category": "fire_hotlines",
       "alternateNumbers": ["0427972320", "0427100110"]
     },
@@ -2087,7 +2087,7 @@
       "hotlineNumber": "09970658944",
       "regionName": "Region IV-A",
       "province": "Quezon",
-      "city": "Lucena City",
+      "city": "Lucena",
       "category": "police_hotlines",
       "alternateNumbers": ["09985985737", "0423737294", "0427884626"]
     }
