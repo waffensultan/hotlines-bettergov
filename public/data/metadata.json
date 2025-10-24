@@ -63,6 +63,14 @@
             ]
           },
           {
+            "province": "Laguna",
+            "cities": ["San Pablo"]
+          },
+          {
+            "province": "Quezon",
+            "cities": ["Lucena"]
+          },
+          {
             "province": "Rizal",
             "cities": [
               "Angono",
