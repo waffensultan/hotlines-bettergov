@@ -3,6 +3,15 @@
 import { THotlineCategory } from '@/interfaces/IHotlines';
 import { cn } from '@/lib/utils';
 import { Flame, Hospital, Landmark, LucideIcon, Phone, Siren } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from '@/components/ui/dialog';
+import { useState } from 'react';
 
 type HotlineCardProps = {
   type: THotlineCategory;
@@ -10,10 +19,18 @@ type HotlineCardProps = {
   number: string;
   location?: string;
   province?: string;
+  alternateNumbers: string[];
 };
 
-const HotlineCard: React.FC<HotlineCardProps> = ({ type, name, number, location, province }) => {
-  // TODO: integrate alternate numbers
+const HotlineCard: React.FC<HotlineCardProps> = ({
+  type,
+  name,
+  number,
+  location,
+  province,
+  alternateNumbers,
+}) => {
+  const [isAltNumModalOpen, setIsAltNumModalOpen] = useState(false);
 
   const icons: Record<THotlineCategory, LucideIcon> = {
     police_hotlines: Siren,
@@ -48,11 +65,13 @@ const HotlineCard: React.FC<HotlineCardProps> = ({ type, name, number, location,
 
   const Icon = icons[type];
 
+  const handleCall = (phoneNumber: string) => {
+    window.location.href = `tel:${phoneNumber}`;
+    setIsAltNumModalOpen(false);
+  };
+
   return (
-    <a
-      href={`tel:${number}`}
-      className="flex flex-row border-gray-300 mx-4 border py-4 px-6 rounded-xl shadow-xs gap-4 bg-white"
-    >
+    <div className="flex flex-row border-gray-300 mx-4 border py-4 px-6 rounded-xl shadow-xs gap-4 bg-white">
       <div>
         <div className={cn('rounded-xl', 'p-3', colors[type].background, colors[type].text)}>
           <Icon />
@@ -61,21 +80,56 @@ const HotlineCard: React.FC<HotlineCardProps> = ({ type, name, number, location,
       <div className="flex flex-col gap-2">
         <div className="flex flex-col">
           <div className="font-bold">{name}</div>
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col gap-2">
             {location && (
               <div className="text-gray-700 text-xs text-neutral">
                 {province ? `${location} (${province})` : location}
               </div>
             )}
-            <div className="text-gray-800 text-sm">{number}</div>
-            <div className="flex items-center gap-2 text-blue-600 text-sm">
-              <Phone size={14} />
-              <span>Tap to call</span>
+
+            <div className="flex items-center gap-2 flex-wrap">
+              <Button
+                onClick={() => handleCall(number)}
+                variant="default"
+                size="sm"
+                className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white"
+              >
+                <Phone size={16} />
+                <span>{number}</span>
+              </Button>
+
+              {alternateNumbers && alternateNumbers.length > 0 && (
+                <Dialog open={isAltNumModalOpen} onOpenChange={setIsAltNumModalOpen}>
+                  <DialogTrigger asChild>
+                    <Button variant="outline" size="sm" className="text-xs">
+                      Call alternate number
+                    </Button>
+                  </DialogTrigger>
+                  <DialogContent>
+                    <DialogHeader>
+                      <DialogTitle>Select a number to call</DialogTitle>
+                    </DialogHeader>
+                    <div className="flex flex-col gap-2 mt-4">
+                      {alternateNumbers.map((altNumber, index) => (
+                        <Button
+                          key={index}
+                          onClick={() => handleCall(altNumber)}
+                          variant="outline"
+                          className="flex items-center gap-3 text-blue-600 text-base justify-start h-auto py-3"
+                        >
+                          <Phone size={16} />
+                          <span>{altNumber}</span>
+                        </Button>
+                      ))}
+                    </div>
+                  </DialogContent>
+                </Dialog>
+              )}
             </div>
           </div>
         </div>
       </div>
-    </a>
+    </div>
   );
 };
 
