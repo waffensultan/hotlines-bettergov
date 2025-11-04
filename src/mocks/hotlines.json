@@ -84,7 +84,7 @@
     {
       "hotlineName": "Pnp Crime Laboratory Tipanoy",
       "hotlineNumber": "221-0499",
-      "regionName": "Region X - Northern Mindanao ",
+      "regionName": "Region X - Northern Mindanao",
       "province": "Lanao del Norte",
       "city": "Iligan City",
       "category": "police_hotlines",
@@ -219,7 +219,7 @@
     {
       "hotlineName": "St. Anthony Maternity's and Child",
       "hotlineNumber": "221-5748",
-      "regionName": "Region X - Northern Min danao",
+      "regionName": "Region X - Northern Mindanao",
       "province": "Lanao del Norte",
       "city": "Iligan City",
       "category": "medical_hotlines",
@@ -228,7 +228,7 @@
     {
       "hotlineName": "Mercy Community Hospitals Inc.",
       "hotlineNumber": "221-8374",
-      "regionName": "Region X - Northern Mindan ao",
+      "regionName": "Region X - Northern Mindanao",
       "province": "Lanao del Norte",
       "city": "Iligan City",
       "category": "medical_hotlines",
@@ -1478,339 +1478,7 @@
       "category": "medical_hotlines",
       "alternateNumbers": ["09478847498"]
     },
-    {
-      "hotlineName": "Pasig City DRRMO Emergency Hotline",
-      "hotlineNumber": "86430000",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Pasig City - Philippine National Police (PNP)",
-      "hotlineNumber": "84777953",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "police_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Pasig - Bureau of Fire Protection (BFP)",
-      "hotlineNumber": "+639327798621",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "fire_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Pasig City Children's Hospital",
-      "hotlineNumber": "86432222",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "medical_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Pasig City General Hospital",
-      "hotlineNumber": "86427379",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "medical_hotlines",
-      "alternateNumbers": ["86427381"]
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Bagong Ilog",
-      "hotlineNumber": "09361808499",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": ["09128154041", "09159019134"]
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Bagong Katipunan",
-      "hotlineNumber": "84774262",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Bambang",
-      "hotlineNumber": "70032600",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Buting",
-      "hotlineNumber": "09166647744",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": ["09682141115"]
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Caniogan",
-      "hotlineNumber": "09670393182",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": ["09086436720"]
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Dela Paz",
-      "hotlineNumber": "09999988844",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Kapasigan",
-      "hotlineNumber": "87254023",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Kapitolyo",
-      "hotlineNumber": "09670984620",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": ["86327598"]
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Malinao",
-      "hotlineNumber": "86416672",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": ["86327605"]
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Manggahan",
-      "hotlineNumber": "09088653031",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": ["09171729744"]
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Oranbo",
-      "hotlineNumber": "09154062290",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": ["86310254"]
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Palatiw",
-      "hotlineNumber": "83739234",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": ["83740082"]
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Pinagbuhatan",
-      "hotlineNumber": "09238574110",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": ["09152661400", "88804609"]
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Pineda",
-      "hotlineNumber": "09937890331",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Rosario",
-      "hotlineNumber": "79565695",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Sagad",
-      "hotlineNumber": "86280227",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. San Antonio",
-      "hotlineNumber": "09186254428",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. San Joaquin",
-      "hotlineNumber": "09203065643",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. San Jose",
-      "hotlineNumber": "09670598674",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. San Miguel",
-      "hotlineNumber": "09569282660",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. San Nicolas",
-      "hotlineNumber": "09062748238",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": ["72397463"]
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Santolan - Brgy. Hall",
-      "hotlineNumber": "09173119756",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Santolan - Fire Rescue and Rescue Brigade",
-      "hotlineNumber": "09194500133",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "fire_hotlines",
-      "alternateNumbers": ["09104500133", "86821019"]
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Santolan - Brgy. Security Force",
-      "hotlineNumber": "09660641882",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "police_hotlines",
-      "alternateNumbers": ["86464627"]
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Santolan - Ambulance",
-      "hotlineNumber": "09513357000",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "medical_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Santolan - Patient Transport Vehicle",
-      "hotlineNumber": "09127941722",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "medical_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Sta. Cruz",
-      "hotlineNumber": "73430611",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Sta. Lucia",
-      "hotlineNumber": "09624964778",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Sta. Rosa",
-      "hotlineNumber": "09617625452",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": ["72560509"]
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Sto. Tomas",
-      "hotlineNumber": "71489575",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Sumilang",
-      "hotlineNumber": "09267283919",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Pasig City - Brgy. Ugong",
-      "hotlineNumber": "09178164987",
-      "regionName": "National Capital Region (NCR)",
-      "province": "Metro Manila",
-      "city": "Pasig",
-      "category": "government_hotlines",
-      "alternateNumbers": []
-    },
+
     {
       "hotlineName": "Makati City Hall Trunkline",
       "hotlineNumber": "88701000",
@@ -2209,7 +1877,15 @@
       "category": "fire_hotlines",
       "alternateNumbers": ["2225035"]
     },
-
+    {
+      "hotlineName": "Disaster Management Office",
+      "hotlineNumber": "09123456789",
+      "regionName": "Region III - Central Luzon",
+      "province": "Nueva Ecija",
+      "city": "San Jose",
+      "category": "government_hotlines",
+      "alternateNumbers": []
+    },
     {
       "hotlineName": "24/7 Health Hotline",
       "hotlineNumber": "09992226626",
@@ -2370,6 +2046,15 @@
       "alternateNumbers": []
     },
     {
+      "hotlineName": "Disaster Management Office",
+      "hotlineNumber": "09123456789",
+      "regionName": "Region III - Central Luzon",
+      "province": "Batangas",
+      "city": "Rosario",
+      "category": "government_hotlines",
+      "alternateNumbers": []
+    },
+    {
       "hotlineName": "San Pablo City Disaster Risk Reduction and Management Office (CDRRMO)",
       "hotlineNumber": "09985407171",
       "regionName": "Region IV-A",
@@ -2433,121 +2118,13 @@
       "alternateNumbers": ["09985985737", "0423737294", "0427884626"]
     },
     {
-      "hotlineName": "Roxas City Emergency Response Team",
-      "hotlineNumber": "09124722669",
-      "regionName": "Region VI",
-      "province": "Capiz",
-      "city": "Roxas",
+      "hotlineName": "San Jose Disaster Risk Reduction and Management Office",
+      "hotlineNumber": "09977262692",
+      "regionName": "Region VI - Western Visayas",
+      "province": "Antique",
+      "city": "San Jose",
       "category": "government_hotlines",
-      "alternateNumbers": ["09173066741", "0365227878"]
-    },
-    {
-      "hotlineName": "Roxas City Emergency Operation Center",
-      "hotlineNumber": "0365201086",
-      "regionName": "Region VI",
-      "province": "Capiz",
-      "city": "Roxas",
-      "category": "government_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Roxas Memorial Provincial Hospital",
-      "hotlineNumber": "0366210823",
-      "regionName": "Region VI",
-      "province": "Capiz",
-      "city": "Roxas",
-      "category": "medical_hotlines",
-      "alternateNumbers": ["0366210030"]
-    },
-    {
-      "hotlineName": "Roxas City Health Office",
-      "hotlineNumber": "0366215686",
-      "regionName": "Region VI",
-      "province": "Capiz",
-      "city": "Roxas",
-      "category": "medical_hotlines",
-      "alternateNumbers": ["0366205103", "09219768315"]
-    },
-    {
-      "hotlineName": "Philippine Red Cross Roxas City Chapter",
-      "hotlineNumber": "0366211125",
-      "regionName": "Region VI",
-      "province": "Capiz",
-      "city": "Roxas",
-      "category": "medical_hotlines",
-      "alternateNumbers": ["09171085615"]
-    },
-    {
-      "hotlineName": "Capiz Emergency Response Team",
-      "hotlineNumber": "0365201203",
-      "regionName": "Region VI",
-      "province": "Capiz",
-      "city": "Roxas",
-      "category": "government_hotlines",
-      "alternateNumbers": ["09307012206", "09984773357"]
-    },
-    {
-      "hotlineName": "Roxas City Bureau of Fire Protection",
-      "hotlineNumber": "0366210221",
-      "regionName": "Region VI",
-      "province": "Capiz",
-      "city": "Roxas",
-      "category": "fire_hotlines",
-      "alternateNumbers": ["09506085228"]
-    },
-    {
-      "hotlineName": "Roxas City Police",
-      "hotlineNumber": "0366200284",
-      "regionName": "Region VI",
-      "province": "Capiz",
-      "city": "Roxas",
-      "category": "police_hotlines",
-      "alternateNumbers": ["09297617489"]
-    },
-    {
-      "hotlineName": "CACAG (Capiz Citizens Action Group Inc.)",
-      "hotlineNumber": "0366211221",
-      "regionName": "Region VI",
-      "province": "Capiz",
-      "city": "Roxas",
-      "category": "fire_hotlines",
-      "alternateNumbers": ["09219069888", "09914884988"]
-    },
-    {
-      "hotlineName": "Coast Guard Station Capiz",
-      "hotlineNumber": "09638008443",
-      "regionName": "Region VI",
-      "province": "Capiz",
-      "city": "Roxas",
-      "category": "government_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "Federation Roxas City Fire and Rescue Volunteers",
-      "hotlineNumber": "09127350573",
-      "regionName": "Region VI",
-      "province": "Capiz",
-      "city": "Roxas",
-      "category": "fire_hotlines",
-      "alternateNumbers": ["0366430096"]
-    },
-    {
-      "hotlineName": "Metro Roxas Water District",
-      "hotlineNumber": "0366210044",
-      "regionName": "Region VI",
-      "province": "Capiz",
-      "city": "Roxas",
-      "category": "utility_hotlines",
-      "alternateNumbers": []
-    },
-    {
-      "hotlineName": "CAPELCO (Capiz Electric Cooperative Inc.)",
-      "hotlineNumber": "0366204930",
-      "regionName": "Region VI",
-      "province": "Capiz",
-      "city": "Roxas",
-      "category": "utility_hotlines",
-      "alternateNumbers": ["09630438339"]
+      "alternateNumbers": [""]
     }
   ]
 }
