@@ -2548,6 +2548,112 @@
       "city": "Roxas",
       "category": "utility_hotlines",
       "alternateNumbers": ["09630438339"]
+    },
+    {
+      "hotlineName": "Emergency Rescue Unit Foundation",
+      "hotlineNumber": "161",
+      "regionName": "Region VII",
+      "province": "Cebu",
+      "city": "Cebu City",
+      "category": "medical_hotlines",
+      "alternateNumbers": ["0322339300", "0322557287"]
+    },
+    {
+      "hotlineName": "Bureau of Fire Protection",
+      "hotlineNumber": "160",
+      "regionName": "Region VII",
+      "province": "Cebu",
+      "city": "Cebu City",
+      "category": "fire_hotlines",
+      "alternateNumbers": ["0322540200", "0322540300", "09189099785", "0323444747", "0323443364"]
+    },
+    {
+      "hotlineName": "Police",
+      "hotlineNumber": "166",
+      "regionName": "Region VII",
+      "province": "Cebu",
+      "city": "Cebu City",
+      "category": "police_hotlines",
+      "alternateNumbers": [
+        "0322546968",
+        "0322562194",
+        "0322557350",
+        "0322332178",
+        "0322330202",
+        "0322359666"
+      ]
+    },
+    {
+      "hotlineName": "Chong Hua Hospital",
+      "hotlineNumber": "0322558000",
+      "regionName": "Region VII",
+      "province": "Cebu",
+      "city": "Cebu City",
+      "category": "medical_hotlines",
+      "alternateNumbers": []
+    },
+    {
+      "hotlineName": "Cebu Doctors' Hospital",
+      "hotlineNumber": "0322555555",
+      "regionName": "Region VII",
+      "province": "Cebu",
+      "city": "Cebu City",
+      "category": "medical_hotlines",
+      "alternateNumbers": []
+    },
+    {
+      "hotlineName": "Perpetual Succour Hospital",
+      "hotlineNumber": "0322338620",
+      "regionName": "Region VII",
+      "province": "Cebu",
+      "city": "Cebu City",
+      "category": "medical_hotlines",
+      "alternateNumbers": []
+    },
+    {
+      "hotlineName": "Velez General Hospital",
+      "hotlineNumber": "0322531871",
+      "regionName": "Region VII",
+      "province": "Cebu",
+      "city": "Cebu City",
+      "category": "medical_hotlines",
+      "alternateNumbers": []
+    },
+    {
+      "hotlineName": "Cebu City Medical Center",
+      "hotlineNumber": "0322557141",
+      "regionName": "Region VII",
+      "province": "Cebu",
+      "city": "Cebu City",
+      "category": "medical_hotlines",
+      "alternateNumbers": []
+    },
+    {
+      "hotlineName": "Vicente Sotto Memorial Medical Center",
+      "hotlineNumber": "0322551591",
+      "regionName": "Region VII",
+      "province": "Cebu",
+      "city": "Cebu City",
+      "category": "medical_hotlines",
+      "alternateNumbers": []
+    },
+    {
+      "hotlineName": "Philippine National Red Cross (Cebu Chapter)",
+      "hotlineNumber": "0322534611",
+      "regionName": "Region VII",
+      "province": "Cebu",
+      "city": "Cebu City",
+      "category": "medical_hotlines",
+      "alternateNumbers": []
+    },
+    {
+      "hotlineName": "Traffic Operations Management",
+      "hotlineNumber": "0322539211",
+      "regionName": "Region VII",
+      "province": "Cebu",
+      "city": "Cebu City",
+      "category": "utility_hotlines",
+      "alternateNumbers": []
     }
   ]
 }

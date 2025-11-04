@@ -102,6 +102,15 @@
         ]
       },
       {
+        "name": "Region VII - Central Visayas",
+        "provinces": [
+          {
+            "province": "Cebu",
+            "cities": ["Cebu City"]
+          }
+        ]
+      },
+      {
         "name": "Region X - Northern Mindanao",
         "provinces": [
           {
