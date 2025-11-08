@@ -2681,6 +2681,51 @@
       "city": "Cebu City",
       "category": "utility_hotlines",
       "alternateNumbers": []
+    },
+    {
+      "hotlineName": "Parañaque DRRMO",
+      "hotlineNumber": "88207783",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Parañaque",
+      "category": "government_hotlines",
+      "alternateNumbers": []
+    },
+    {
+      "hotlineName": "Parañaque PNP",
+      "hotlineNumber": "0282862877",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Parañaque",
+      "category": "police_hotlines",
+      "alternateNumbers": []
+    },
+    {
+      "hotlineName": "Parañaque Bureau of Fire Protection",
+      "hotlineNumber": "88269131",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Parañaque",
+      "category": "fire_hotlines",
+      "alternateNumbers": ["0284260219", "0284260246"]
+    },
+    {
+      "hotlineName": "Parañaque Philippines Red Cross",
+      "hotlineNumber": "8364790",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Parañaque",
+      "category": "medical_hotlines",
+      "alternateNumbers": []
+    },
+    {
+      "hotlineName": "Parañaque NDRRMC",
+      "hotlineNumber": "0289115061",
+      "regionName": "National Capital Region (NCR)",
+      "province": "Metro Manila",
+      "city": "Parañaque",
+      "category": "utility_hotlines",
+      "alternateNumbers": []
     }
   ]
 }
